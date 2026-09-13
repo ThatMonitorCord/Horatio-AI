@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 2.3
+
+Released: 2026-09-12T23:02:17.948799-04:00
+
+### Webhook integration
+
+I added webhook integration.
+
 ## Minecraft Companion 2.2
 
 Released: 2026-09-12T22:49:40.890091-04:00
