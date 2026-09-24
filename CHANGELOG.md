@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 3.1
+
+Released: 2026-09-23T23:10:06.929614-04:00
+
+### Operator controls and conversation history
+
+I expanded operator controls and conversation-history handling.
+
 ## Minecraft Companion 3.0
 
 Released: 2026-09-23T22:04:22.775634-04:00
