@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 3.2
+
+Released: 2026-09-24T00:15:11.083951-04:00
+
+### Persistent conversation memory
+
+I added persistent conversation memory.
+
 ## Minecraft Companion 3.1
 
 Released: 2026-09-23T23:10:06.929614-04:00
