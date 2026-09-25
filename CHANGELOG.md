@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 3.4
+
+Released: 2026-09-25T18:07:19.142740-04:00
+
+### Application telemetry integration
+
+I added Minecraft telemetry for integration with the standalone application.
+
 ## Minecraft Companion 3.3
 
 Released: 2026-09-24T23:46:32.020575-04:00
