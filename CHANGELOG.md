@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 3.3
+
+Released: 2026-09-24T23:46:32.020575-04:00
+
+### Reference-document retrieval
+
+I added forum and reference-document evidence to the knowledge workflow.
+
 ## Minecraft Companion 3.2
 
 Released: 2026-09-24T00:15:11.083951-04:00
