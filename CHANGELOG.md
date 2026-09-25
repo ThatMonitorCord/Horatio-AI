@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.0.0
+
+Released: 2026-09-25T18:17:31-04:00
+
+### Standalone Discord application
+
+I shipped a standalone Windows Discord assistant with local inference, conversation history, profiles, retrieval and optional Minecraft telemetry.
+
 ## Minecraft Companion 3.4
 
 Released: 2026-09-25T18:07:19.142740-04:00
