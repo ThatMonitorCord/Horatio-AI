@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.2.3
+
+Released: 2026-09-26T02:24:11-04:00
+
+### Streamed sentence playback
+
+I began speech from validated streamed answer sentences.
+
 ## Horatio AI 1.2.2
 
 Released: 2026-09-26T01:43:19-04:00
