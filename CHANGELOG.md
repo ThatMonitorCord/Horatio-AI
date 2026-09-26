@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.3.1
+
+Released: 2026-09-26T19:25:18-04:00
+
+### Ordered speech playback
+
+I serialized speech chunks to preserve playback order.
+
 ## Horatio AI 1.3.0
 
 Released: 2026-09-26T16:50:58-04:00
