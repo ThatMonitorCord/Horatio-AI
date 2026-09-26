@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.2.6
+
+Released: 2026-09-26T16:17:56-04:00
+
+### Personality/lore controls and voice acknowledgements
+
+I refined personality/lore controls and voice acknowledgements.
+
 ## Horatio AI 1.2.5
 
 Released: 2026-09-26T14:15:24-04:00
