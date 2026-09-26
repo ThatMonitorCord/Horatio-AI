@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.3.0
+
+Released: 2026-09-26T16:50:58-04:00
+
+### Natural speech synthesis
+
+I added natural speech synthesis to spoken replies.
+
 ## Horatio AI 1.2.6
 
 Released: 2026-09-26T16:17:56-04:00
