@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.1.1
+
+Released: 2026-09-25T20:51:02-04:00
+
+### Verified account-link parsing
+
+I parsed verified account-linking embeds correctly.
+
 ## Horatio AI 1.1.0
 
 Released: 2026-09-25T20:32:04-04:00
