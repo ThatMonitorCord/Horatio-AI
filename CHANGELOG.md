@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.3.2
+
+Released: 2026-09-26T19:40:34-04:00
+
+### Wake-word false-positive reduction
+
+I reduced false wake-word activations.
+
 ## Horatio AI 1.3.1
 
 Released: 2026-09-26T19:25:18-04:00
