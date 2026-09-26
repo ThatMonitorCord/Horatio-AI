@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.1.2
+
+Released: 2026-09-25T23:31:15-04:00
+
+### Summary formatting repair
+
+I enforced strict summary JSON and added bounded repair of malformed output.
+
 ## Horatio AI 1.1.1
 
 Released: 2026-09-25T20:51:02-04:00
