@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.2.0
+
+Released: 2026-09-26T00:48:27-04:00
+
+### Discord voice conversations
+
+I added wake words, speaker identity and spoken replies for Discord voice conversations.
+
 ## Horatio AI 1.1.2
 
 Released: 2026-09-25T23:31:15-04:00
