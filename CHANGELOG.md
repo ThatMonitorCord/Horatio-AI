@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.2.1
+
+Released: 2026-09-26T01:28:27-04:00
+
+### Voice filtering and playback
+
+I refined wake filtering, playback queues and voice shutdown.
+
 ## Horatio AI 1.2.0
 
 Released: 2026-09-26T00:48:27-04:00
