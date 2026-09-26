@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.1.0
+
+Released: 2026-09-25T20:32:04-04:00
+
+### Profiles and account linking
+
+I expanded profiles and context and added Minecraft chat mirroring and Discord-to-Minecraft account linking.
+
 ## Horatio AI 1.0.0
 
 Released: 2026-09-25T18:17:31-04:00
