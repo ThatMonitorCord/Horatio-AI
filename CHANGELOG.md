@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.2.4
+
+Released: 2026-09-26T13:42:01-04:00
+
+### Voice shutdown and switching behavior
+
+I recovered voice shutdown and switching behavior.
+
 ## Horatio AI 1.2.3
 
 Released: 2026-09-26T02:24:11-04:00
