@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.2.2
+
+Released: 2026-09-26T01:43:19-04:00
+
+### Active voice priority
+
+I prioritized the active voice conversation over typed and overlapping requests.
+
 ## Horatio AI 1.2.1
 
 Released: 2026-09-26T01:28:27-04:00
