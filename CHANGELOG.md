@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.3.5
+
+Released: 2026-09-26T21:36:29-04:00
+
+### Continuous audio playback
+
+I restored the earlier voice base and used one continuous audio player. I shipped this repair after the voice shutdown update.
+
 ## Horatio AI 1.3.4
 
 Released: 2026-09-26T20:53:27-04:00
