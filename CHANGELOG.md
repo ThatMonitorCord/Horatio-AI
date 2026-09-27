@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.7.0
+
+Released: 2026-09-27T13:12:04-04:00
+
+### After-action learning
+
+I added post-response adaptive learning, after-action investigations, and dashboard and consultation workflows.
+
 ## Horatio AI 1.6.0
 
 Released: 2026-09-27T01:58:14-04:00
