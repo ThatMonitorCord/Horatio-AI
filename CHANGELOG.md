@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.3.3
+
+Released: 2026-09-26T20:13:45-04:00
+
+### Wake window, background pausing and voice budgets
+
+I adjusted wake window, background pausing and voice budgets.
+
 ## Horatio AI 1.3.2
 
 Released: 2026-09-26T19:40:34-04:00
