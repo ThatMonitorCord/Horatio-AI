@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.3.4
+
+Released: 2026-09-26T20:53:27-04:00
+
+### Voice-filter rollback
+
+I rolled back overly aggressive voice filtering/background behavior.
+
 ## Horatio AI 1.3.3
 
 Released: 2026-09-26T20:13:45-04:00
