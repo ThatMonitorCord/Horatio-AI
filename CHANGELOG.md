@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.8.0
+
+Released: 2026-09-27T14:31:21-04:00
+
+### Private operator chat
+
+I added private operator chat, directives and engineering consultation.
+
 ## Horatio AI 1.7.0
 
 Released: 2026-09-27T13:12:04-04:00
