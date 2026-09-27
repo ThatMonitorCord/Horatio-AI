@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.5.1
+
+Released: 2026-09-27T01:22:03.709576-04:00
+
+### Voice preset migration
+
+I applied the new voice preset once and migrate obsolete configuration fields.
+
 ## Horatio AI 1.4.0
 
 Released: 2026-09-26T23:34:41-04:00
