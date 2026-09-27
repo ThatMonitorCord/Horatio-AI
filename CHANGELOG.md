@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.4.0
+
+Released: 2026-09-26T23:34:41-04:00
+
+### Living memory
+
+I added persistent retrieval, relationships, moods, rumors and newest-first learning to the memory system.
+
 ## Horatio AI 1.3.5
 
 Released: 2026-09-26T21:36:29-04:00
