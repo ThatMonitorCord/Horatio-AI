@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.8.1
+
+Released: 2026-09-27T15:01:36-04:00
+
+### Configuration migration/path handling
+
+I repaired configuration migration/path handling.
+
 ## Horatio AI 1.8.0
 
 Released: 2026-09-27T14:31:21-04:00
