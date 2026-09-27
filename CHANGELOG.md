@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.6.0
+
+Released: 2026-09-27T01:58:14-04:00
+
+### Persistent operator objectives
+
+I added durable private operator objectives with status tracking and cancellation.
+
 ## Horatio AI 1.5.1
 
 Released: 2026-09-27T01:22:03.709576-04:00
