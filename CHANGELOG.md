@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.12.1
+
+Released: 2026-09-28T18:48:05-04:00
+
+### Manual voice-visit eligibility
+
+I repaired manual voice-visit eligibility.
+
 ## Horatio AI 1.12.0
 
 Released: 2026-09-28T18:29:39-04:00
