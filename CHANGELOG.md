@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.9.1
+
+Released: 2026-09-27T21:09:29-04:00
+
+### Consultant request sizing and progress reporting
+
+I repaired consultant request sizing and progress reporting.
+
 ## Horatio AI 1.9.0
 
 Released: 2026-09-27T20:05:11-04:00
