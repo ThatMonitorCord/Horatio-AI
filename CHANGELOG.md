@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.12.0
+
+Released: 2026-09-28T18:29:39-04:00
+
+### Voice visits and intentions
+
+I added scripted voice visits, intention controls and capability-gap tracking.
+
 ## Horatio AI 1.11.0
 
 Released: 2026-09-28T16:38:31-04:00
