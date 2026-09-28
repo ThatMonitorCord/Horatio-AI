@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.9.4
+
+Released: 2026-09-27T22:48:17-04:00
+
+### Consultant workspace CLI arguments
+
+I repaired consultant workspace CLI arguments.
+
 ## Horatio AI 1.9.3
 
 Released: 2026-09-27T22:18:49-04:00
