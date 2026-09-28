@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.12.2
+
+Released: 2026-09-28T19:09:34-04:00
+
+### Voice-visit scheduling and retry
+
+I repaired voice-visit scheduling and retry.
+
 ## Horatio AI 1.12.1
 
 Released: 2026-09-28T18:48:05-04:00
