@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.9.3
+
+Released: 2026-09-27T22:18:49-04:00
+
+### Unique job leases
+
+I repaired duplicate-job ownership with a unique lease.
+
 ## Horatio AI 1.9.2
 
 Released: 2026-09-27T22:06:25-04:00
