@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.10.1
+
+Released: 2026-09-28T00:49:23-04:00
+
+### Objective investigation, evidence and rejection feedback
+
+I improved objective investigation, evidence and rejection feedback.
+
 ## Horatio AI 1.10.0
 
 Released: 2026-09-28T00:22:07-04:00
