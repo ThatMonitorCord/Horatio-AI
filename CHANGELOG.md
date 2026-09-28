@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.10.0
+
+Released: 2026-09-28T00:22:07-04:00
+
+### Controlled engineering and memory consolidation
+
+I retired automatic self-updating/generated-tool installation; add adviser-only catch-up and belief, prediction, intention and relationship consolidation.
+
 ## Horatio AI 1.9.4
 
 Released: 2026-09-27T22:48:17-04:00
