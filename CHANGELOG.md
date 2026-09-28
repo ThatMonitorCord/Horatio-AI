@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.11.0
+
+Released: 2026-09-28T16:38:31-04:00
+
+### Web retrieval and tool workshop
+
+I added local web access, a bounded public tool workshop and an operator web workflow.
+
 ## Horatio AI 1.10.1
 
 Released: 2026-09-28T00:49:23-04:00
