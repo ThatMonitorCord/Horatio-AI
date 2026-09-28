@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.9.2
+
+Released: 2026-09-27T22:06:25-04:00
+
+### Response schema handling
+
+I repaired response schema handling.
+
 ## Horatio AI 1.9.1
 
 Released: 2026-09-27T21:09:29-04:00
