@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.9.0
+
+Released: 2026-09-27T20:05:11-04:00
+
+### Reviewed update workflow
+
+I added a reviewed build-and-update workflow and permission inbox. I subsequently retired this update path.
+
 ## Horatio AI 1.8.1
 
 Released: 2026-09-27T15:01:36-04:00
