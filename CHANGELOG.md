@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 3.5
+
+Released: 2026-09-28T22:24:29.469938-04:00
+
+### Authenticated player queries
+
+I expanded authenticated player-statistics queries and sampled activity reporting.
+
 ## Horatio AI 1.13.2
 
 Released: 2026-09-28T21:07:09-04:00
