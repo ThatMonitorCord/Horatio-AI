@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.13.0
+
+Released: 2026-09-28T20:01:56-04:00
+
+### Shared tools for background agents
+
+I exposed the shared answer tool catalog to background agents.
+
 ## Horatio AI 1.12.2
 
 Released: 2026-09-28T19:09:34-04:00
