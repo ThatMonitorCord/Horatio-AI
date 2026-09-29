@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Minecraft Companion 3.5.1
+
+Released: 2026-09-28T22:54:26.672902-04:00
+
+### Companion discovery and integration
+
+I improved query discovery and companion integration, and coordinated response handling across the connected services.
+
 ## Horatio AI 1.14.0
 
 Released: 2026-09-28T22:29:09-04:00
