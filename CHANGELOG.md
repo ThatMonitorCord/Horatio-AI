@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.13.2
+
+Released: 2026-09-28T21:07:09-04:00
+
+### Stale-decision invalidation
+
+I prevented stale skip decisions from vetoing new work.
+
 ## Horatio AI 1.13.1
 
 Released: 2026-09-28T20:49:29-04:00
