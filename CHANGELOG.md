@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.4
+
+Released: 2026-09-29T18:42:17-04:00
+
+### Alternate-account privacy handling
+
+I repaired alternate-account privacy handling.
+
 ## Horatio AI 1.14.3
 
 Released: 2026-09-29T18:12:22-04:00
