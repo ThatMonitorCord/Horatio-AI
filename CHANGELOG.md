@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.1
+
+Released: 2026-09-28T22:59:12-04:00
+
+### Telemetry discovery
+
+I added telemetry endpoint discovery and coordinated companion response behavior.
+
 ## Minecraft Companion 3.5.1
 
 Released: 2026-09-28T22:54:26.672902-04:00
