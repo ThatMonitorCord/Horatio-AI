@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.2
+
+Released: 2026-09-28T23:27:56-04:00
+
+### Public-web result parsing
+
+I repaired public-web result parsing.
+
 ## Horatio AI 1.14.1
 
 Released: 2026-09-28T22:59:12-04:00
