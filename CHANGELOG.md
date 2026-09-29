@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.13.1
+
+Released: 2026-09-28T20:49:29-04:00
+
+### Community and relationship queries
+
+I broadened existing guild questions and relationship responses.
+
 ## Horatio AI 1.13.0
 
 Released: 2026-09-28T20:01:56-04:00
