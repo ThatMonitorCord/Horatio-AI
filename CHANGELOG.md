@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.0
+
+Released: 2026-09-28T22:29:09-04:00
+
+### Minecraft telemetry
+
+I added direct Minecraft telemetry and player-statistics tools.
+
 ## Minecraft Companion 3.5
 
 Released: 2026-09-28T22:24:29.469938-04:00
