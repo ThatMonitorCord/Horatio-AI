@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.6
+
+Released: 2026-09-29T22:19:08-04:00
+
+### Follow-up context and tool reuse
+
+I bounded same-user follow-up context, enforce writing style and check existing tools before proposing duplicates.
+
 ## Horatio AI 1.14.5
 
 Released: 2026-09-29T21:25:49-04:00
