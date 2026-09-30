@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.5
+
+Released: 2026-09-29T21:25:49-04:00
+
+### Responsive voice retrieval
+
+I avoided synchronous search-index refreshes during voice replies; restore audible acknowledgements.
+
 ## Horatio AI 1.14.4
 
 Released: 2026-09-29T18:42:17-04:00
