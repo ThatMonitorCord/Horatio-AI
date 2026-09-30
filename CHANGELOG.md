@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.9
+
+Released: 2026-09-29T23:44:46-04:00
+
+### Dynamic personality responses
+
+I generated rants dynamically rather than repeating canned text.
+
 ## Horatio AI 1.14.8
 
 Released: 2026-09-29T23:19:43-04:00
