@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.7
+
+Released: 2026-09-29T22:28:01-04:00
+
+### Conversational continuity, Bedrock roster handling and wake words
+
+I repaired conversational continuity, Bedrock roster handling and wake words.
+
 ## Horatio AI 1.14.6
 
 Released: 2026-09-29T22:19:08-04:00
