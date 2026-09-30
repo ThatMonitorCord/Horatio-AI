@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.14.8
+
+Released: 2026-09-29T23:19:43-04:00
+
+### Repeated probing and personalized rant behavior
+
+I refined repeated probing and personalized rant behavior.
+
 ## Horatio AI 1.14.7
 
 Released: 2026-09-29T22:28:01-04:00
