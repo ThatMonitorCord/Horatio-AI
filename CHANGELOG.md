@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.15.0
+
+Released: 2026-10-02T19:05:01-04:00
+
+### Administration metrics and investigations
+
+I added server-administration metrics and deeper private operator investigation and planning.
+
 ## Horatio AI 1.14.9
 
 Released: 2026-09-29T23:44:46-04:00
