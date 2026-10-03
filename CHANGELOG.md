@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.16.0
+
+Released: 2026-10-02T22:43:35-04:00
+
+### Server-evidence connection
+
+I connected administration, player-activity and location-evidence tools to the server-evidence service.
+
 ## Horatio AI 1.15.0
 
 Released: 2026-10-02T19:05:01-04:00
