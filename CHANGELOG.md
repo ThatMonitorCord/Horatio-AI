@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.16.1
+
+Released: 2026-10-04T19:24:33-04:00
+
+### Administration-report integration
+
+I expanded the server-evidence administration reports.
+
 ## Horatio AI 1.16.0
 
 Released: 2026-10-02T22:43:35-04:00
