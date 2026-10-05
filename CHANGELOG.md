@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.17.0
+
+Released: 2026-10-05T18:54:40.093195-04:00
+
+### Work queues and development history
+
+I separated pending work from development history; archive reviewed work and expose work queues/guidance.
+
 ## Horatio AI 1.16.3
 
 Released: 2026-10-05T17:05:25-04:00
