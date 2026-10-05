@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.16.3
+
+Released: 2026-10-05T17:05:25-04:00
+
+### Dashboard request timeouts
+
+I repaired dashboard request timeouts.
+
 ## Horatio AI 1.16.2
 
 Released: 2026-10-04T23:12:54-04:00
