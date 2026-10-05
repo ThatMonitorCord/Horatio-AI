@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.16.2
+
+Released: 2026-10-04T23:12:54-04:00
+
+### Evidence-service status display
+
+I improved the evidence service overview/status presentation.
+
 ## Horatio AI 1.16.1
 
 Released: 2026-10-04T19:24:33-04:00
