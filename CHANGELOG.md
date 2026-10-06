@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.18.0
+
+Released: 2026-10-05T20:26:26.348451-04:00
+
+### Operator dashboard
+
+I rebuilt the dashboard around activity graphs, agent state and persistent status and navigation.
+
 ## Horatio AI 1.17.0
 
 Released: 2026-10-05T18:54:40.093195-04:00
