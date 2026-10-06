@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.22.0
+
+Released: 2026-10-06T10:46:54.336775-04:00
+
+### Multi-round evidence queries
+
+I added multiple tool rounds, multi-player statistics and UUID fallback.
+
 ## Horatio AI 1.21.1
 
 Released: 2026-10-06T00:54:59.460202-04:00
