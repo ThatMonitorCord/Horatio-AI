@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.20.0
+
+Released: 2026-10-05T22:11:58.253084-04:00
+
+### Historical moderation research
+
+I added background profiling of notable bans and access to historical moderation evidence.
+
 ## Horatio AI 1.19.0
 
 Released: 2026-10-05T21:36:08.480253-04:00
