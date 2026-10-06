@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.21.0
+
+Released: 2026-10-05T23:06:56.610444-04:00
+
+### Server-performance history
+
+I persisted server tick-performance history and added graphs with improved dashboard readability.
+
 ## Horatio AI 1.20.1
 
 Released: 2026-10-05T22:30:03.824221-04:00
