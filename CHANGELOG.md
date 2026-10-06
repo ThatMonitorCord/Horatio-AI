@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.22.1
+
+Released: 2026-10-06T10:59:25.001850-04:00
+
+### Question-specific tool routing
+
+I improved question-specific tool routing and existing warp-tool use.
+
 ## Horatio AI 1.22.0
 
 Released: 2026-10-06T10:46:54.336775-04:00
