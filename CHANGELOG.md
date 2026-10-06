@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.21.1
+
+Released: 2026-10-06T00:54:59.460202-04:00
+
+### Conversational repetition and continuity
+
+I repaired conversational repetition and continuity.
+
 ## Horatio AI 1.21.0
 
 Released: 2026-10-05T23:06:56.610444-04:00
