@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.23.0
+
+Released: 2026-10-06T16:47:29.103951-04:00
+
+### Player-activity history
+
+I added access to 90-day player-activity evidence.
+
 ## Horatio AI 1.22.1
 
 Released: 2026-10-06T10:59:25.001850-04:00
