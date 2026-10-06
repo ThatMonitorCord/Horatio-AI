@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.20.1
+
+Released: 2026-10-05T22:30:03.824221-04:00
+
+### Embedding queue accounting
+
+I excluded inactive summary chunks from pending-embedding counts.
+
 ## Horatio AI 1.20.0
 
 Released: 2026-10-05T22:11:58.253084-04:00
