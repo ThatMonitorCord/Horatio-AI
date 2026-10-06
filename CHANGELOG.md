@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.19.0
+
+Released: 2026-10-05T21:36:08.480253-04:00
+
+### Player moderation evidence
+
+I added named-player moderation-evidence queries through the evidence service.
+
 ## Horatio AI 1.18.0
 
 Released: 2026-10-05T20:26:26.348451-04:00
