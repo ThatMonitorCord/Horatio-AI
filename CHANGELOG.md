@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.24.2
+
+Released: 2026-10-06T22:37:29-04:00
+
+### Bounded HTTPS retrieval
+
+I expanded the new extension runner's bounded public HTTPS retrieval.
+
 ## Horatio AI 1.23.1
 
 Released: 2026-10-06T20:34:44.658741-04:00
