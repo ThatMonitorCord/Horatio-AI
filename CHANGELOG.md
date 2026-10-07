@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.23.1
+
+Released: 2026-10-06T20:34:44.658741-04:00
+
+### Single-instance activation and voice packaging
+
+I allowed the enable command through the single-instance guard; repair voice packaging.
+
 ## Horatio AI 1.23.0
 
 Released: 2026-10-06T16:47:29.103951-04:00
