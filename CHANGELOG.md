@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.25.1
+
+Released: 2026-10-07T21:28:50.649678-04:00
+
+### Tool routing and cache persistence
+
+I repaired tool routing, workshop authentication and advice delivery, and vector-cache persistence. I restored the previous inference configuration.
+
 ## Horatio AI 1.25.0
 
 Released: 2026-10-07T18:44:20.996616-04:00
