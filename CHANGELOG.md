@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.26.0
+
+Released: 2026-10-07T23:11:31.797866-04:00
+
+### Operator-started gameplay
+
+I added screenshot-based Minecraft control, in-game arrival handling and chat integration for operator-started sessions.
+
 ## Horatio AI 1.25.1
 
 Released: 2026-10-07T21:28:50.649678-04:00
