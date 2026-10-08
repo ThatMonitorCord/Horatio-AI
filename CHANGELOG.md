@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.27.0
+
+Released: 2026-10-08T16:49:13.992930-04:00
+
+### Structured game-control skills
+
+I added structured client-bridge skills and background navigation actions.
+
 ## Horatio AI 1.26.1
 
 Released: 2026-10-07T23:49:47.557519-04:00
