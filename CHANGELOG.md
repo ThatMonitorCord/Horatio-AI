@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.28.0
+
+Released: 2026-10-08T17:48:24.501279-04:00
+
+### Durable gameplay plans
+
+I added persistent gameplay plans and operator-started survival objectives.
+
 ## Horatio AI 1.27.1
 
 Released: 2026-10-08T17:26:49.675279-04:00
