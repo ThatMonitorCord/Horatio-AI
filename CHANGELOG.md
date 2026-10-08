@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.26.1
+
+Released: 2026-10-07T23:49:47.557519-04:00
+
+### Minecraft account-name recognition
+
+I recognized the configured Minecraft account name in chat addressing.
+
 ## Horatio AI 1.26.0
 
 Released: 2026-10-07T23:11:31.797866-04:00
