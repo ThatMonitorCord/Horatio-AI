@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.29.0
+
+Released: 2026-10-08T19:36:55.976537-04:00
+
+### Gameplay recovery and economy tools
+
+I connected gameplay planning to death recovery, economy actions and menu control.
+
 ## Horatio AI 1.28.0
 
 Released: 2026-10-08T17:48:24.501279-04:00
