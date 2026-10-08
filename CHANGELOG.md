@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.30.0
+
+Released: 2026-10-08T19:59:43.337583-04:00
+
+### Gameplay memory
+
+I persisted observed gameplay and made it available to in-game conversation.
+
 ## Horatio AI 1.29.0
 
 Released: 2026-10-08T19:36:55.976537-04:00
