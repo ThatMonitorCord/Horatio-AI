@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.27.1
+
+Released: 2026-10-08T17:26:49.675279-04:00
+
+### Server-aware gameplay planning
+
+I used existing server knowledge in game plans and quiet join behavior.
+
 ## Horatio AI 1.27.0
 
 Released: 2026-10-08T16:49:13.992930-04:00
