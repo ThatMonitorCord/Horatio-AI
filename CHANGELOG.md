@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.32.2
+
+Released: 2026-10-09T14:27:47.121238-04:00
+
+### Gameplay planning recovery
+
+I changed failed gameplay planning to pause or retry instead of silently switching to another execution path.
+
 ## Horatio AI 1.32.1
 
 Released: 2026-10-09T14:11:56.889714-04:00
