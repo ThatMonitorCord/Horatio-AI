@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.32.0
+
+Released: 2026-10-09T01:31:01.825602-04:00
+
+### Bounded gameplay delegation
+
+I separated gameplay planning from execution and added bounded delegation and menu tooltips.
+
 ## Horatio AI 1.31.2
 
 Released: 2026-10-09T00:50:14.786839-04:00
