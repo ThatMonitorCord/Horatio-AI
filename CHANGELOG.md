@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.31.0
+
+Released: 2026-10-09T00:06:21.269692-04:00
+
+### Construction planning and verification
+
+I added generated schematics, material bills and verification of navigation-assisted construction.
+
 ## Horatio AI 1.30.5
 
 Released: 2026-10-08T23:28:21.778860-04:00
