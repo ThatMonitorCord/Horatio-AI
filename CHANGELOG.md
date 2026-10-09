@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.30.1
+
+Released: 2026-10-08T20:47:12.044782-04:00
+
+### Client-log selection, rank/name parsing and suppressed game replies
+
+I repaired client-log selection, rank/name parsing and suppressed game replies.
+
 ## Horatio AI 1.30.0
 
 Released: 2026-10-08T19:59:43.337583-04:00
