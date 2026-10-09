@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.30.2
+
+Released: 2026-10-08T21:04:35.968042-04:00
+
+### Game observation and command feedback
+
+I expanded existing game observation/control with bossbars and command completion.
+
 ## Horatio AI 1.30.1
 
 Released: 2026-10-08T20:47:12.044782-04:00
