@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.33.0
+
+Released: 2026-10-09T15:07:07.363615-04:00
+
+### Crafting and inventory goals
+
+I added recipe-book crafting and inventory goal actions.
+
 ## Horatio AI 1.32.3
 
 Released: 2026-10-09T14:43:58.438599-04:00
