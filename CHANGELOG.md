@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.30.4
+
+Released: 2026-10-08T22:45:26.375623-04:00
+
+### Inventory, navigation and command completion
+
+I repaired SellGUI/navigation, command completion and requested-block equipment.
+
 ## Horatio AI 1.30.3
 
 Released: 2026-10-08T21:22:30.208483-04:00
