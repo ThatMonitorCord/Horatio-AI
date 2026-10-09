@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.33.1
+
+Released: 2026-10-09T15:49:46.763550-04:00
+
+### Prestige-suffix parsing and gameplay income planning
+
+I repaired prestige-suffix parsing and gameplay income planning.
+
 ## Horatio AI 1.33.0
 
 Released: 2026-10-09T15:07:07.363615-04:00
