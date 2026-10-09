@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.30.3
+
+Released: 2026-10-08T21:22:30.208483-04:00
+
+### Game feedback and claim context
+
+I improved game-interface and command feedback and added claim context. I followed this with a separate bridge-startup repair.
+
 ## Horatio AI 1.30.2
 
 Released: 2026-10-08T21:04:35.968042-04:00
