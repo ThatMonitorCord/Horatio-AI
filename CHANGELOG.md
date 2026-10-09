@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.31.1
+
+Released: 2026-10-09T00:26:38.608131-04:00
+
+### Schema refresh and pending-action state
+
+I refreshed stale schemas and distinguish pending actions from blocked gameplay.
+
 ## Horatio AI 1.31.0
 
 Released: 2026-10-09T00:06:21.269692-04:00
