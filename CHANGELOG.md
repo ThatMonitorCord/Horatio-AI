@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.32.1
+
+Released: 2026-10-09T14:11:56.889714-04:00
+
+### Combat, death recovery and failed gameplay-tool handling
+
+I repaired combat, death recovery and failed gameplay-tool handling.
+
 ## Horatio AI 1.32.0
 
 Released: 2026-10-09T01:31:01.825602-04:00
