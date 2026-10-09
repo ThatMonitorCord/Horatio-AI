@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.30.5
+
+Released: 2026-10-08T23:28:21.778860-04:00
+
+### Reconnect recovery and book reading within existing gameplay
+
+I improved reconnect recovery and book reading within existing gameplay.
+
 ## Horatio AI 1.30.4
 
 Released: 2026-10-08T22:45:26.375623-04:00
