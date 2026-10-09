@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.31.2
+
+Released: 2026-10-09T00:50:14.786839-04:00
+
+### Construction checks for doors/beds, sleeping and sign reading
+
+I expanded construction checks for doors/beds, sleeping and sign reading.
+
 ## Horatio AI 1.31.1
 
 Released: 2026-10-09T00:26:38.608131-04:00
