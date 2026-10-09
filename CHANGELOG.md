@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.32.3
+
+Released: 2026-10-09T14:43:58.438599-04:00
+
+### Command-feedback filtering
+
+I filtered unrelated chat from command-feedback records.
+
 ## Horatio AI 1.32.2
 
 Released: 2026-10-09T14:27:47.121238-04:00
