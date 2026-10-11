@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.34.0
+
+Released: 2026-10-11T13:06:52.893525-04:00
+
+### Persistent operator research
+
+I added persistent operator research and chat, task steering, approvals and controlled transfer of server evidence.
+
 ## Horatio AI 1.33.1
 
 Released: 2026-10-09T15:49:46.763550-04:00
