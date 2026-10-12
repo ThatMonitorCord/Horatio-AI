@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.35.0
+
+Released: 2026-10-12T18:46:12.500371-04:00
+
+### Extension workshop and approvals
+
+I added an executable-extension workshop interface, archived operator chats and persistent approval controls.
+
 ## Horatio AI 1.34.0
 
 Released: 2026-10-11T13:06:52.893525-04:00
