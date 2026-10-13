@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.35.1
+
+Released: 2026-10-13T00:49:09-04:00
+
+### Account linking and objective targeting
+
+I repaired duplicate account links, objective targeting and research routing, and reduced mistaken refusals.
+
 ## Horatio AI 1.35.0
 
 Released: 2026-10-12T18:46:12.500371-04:00
