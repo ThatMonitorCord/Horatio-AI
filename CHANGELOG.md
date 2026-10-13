@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.35.2
+
+Released: 2026-10-13T00:54:33-04:00
+
+### Operator-chat restart recovery
+
+I repaired Operator Chat recovery across application restart.
+
 ## Horatio AI 1.35.1
 
 Released: 2026-10-13T00:49:09-04:00
