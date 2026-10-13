@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.35.3
+
+Released: 2026-10-13T01:26:15.135311-04:00
+
+### Tool-result retention
+
+I preserved valid tool results and distinguished unknown players from transport failures.
+
 ## Horatio AI 1.35.2
 
 Released: 2026-10-13T00:54:33-04:00
