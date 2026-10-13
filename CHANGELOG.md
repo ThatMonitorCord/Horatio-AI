@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.36.3
+
+Released: 2026-10-13T17:31:10.879747-04:00
+
+### Membership/permission handling
+
+I repaired membership/permission handling.
+
 ## Horatio AI 1.36.2
 
 Released: 2026-10-13T02:48:38-04:00
