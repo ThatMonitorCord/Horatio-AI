@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.36.2
+
+Released: 2026-10-13T02:48:38-04:00
+
+### Resumable investigation execution
+
+I reused saved tool calls and separate planning/native execution to finish resumed investigations.
+
 ## Horatio AI 1.35.3
 
 Released: 2026-10-13T01:26:15.135311-04:00
