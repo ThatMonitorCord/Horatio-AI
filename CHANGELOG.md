@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.36.5
+
+Released: 2026-10-14T00:47:44.297769-04:00
+
+### Tool concurrency, delivery and numeric/evidence handling
+
+I stabilized tool concurrency, delivery and numeric/evidence handling.
+
 ## Horatio AI 1.36.4
 
 Released: 2026-10-13T17:39:38.120216-04:00
