@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.40.2
+
+Released: 2026-10-18T20:57:05.764400-04:00
+
+### Conversation and follow-up refinements
+
+I refined code-example restrictions, follow-up cooldowns, capability/action wording, deferred-curiosity retries and personality instruction handling. Synchronize bundled source.
+
 ## Horatio AI 1.40.1
 
 Released: 2026-10-18T20:15:53.978388-04:00
