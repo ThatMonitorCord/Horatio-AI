@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.40.0
+
+Released: 2026-10-18T20:05:49.060339-04:00
+
+### Connected outcomes and conversational retrieval
+
+I added permission-checked parent and neighboring conversation context. Connect completed research to follow-up hypotheses, flag assessments affected by corrections, activate missing work-selection/outcome defaults, and expose effective features and build identity.
+
 ## Horatio AI 1.36.5
 
 Released: 2026-10-14T00:47:44.297769-04:00
