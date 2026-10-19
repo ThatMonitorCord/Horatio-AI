@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.40.1
+
+Released: 2026-10-18T20:15:53.978388-04:00
+
+### Maintenance routing repair
+
+I repaired maintenance fallback routing, separated byte sizing from token sizing, and clarified rejected-request errors.
+
 ## Horatio AI 1.40.0
 
 Released: 2026-10-18T20:05:49.060339-04:00
