@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.45.0
+
+Released: 2026-10-19T15:32:15.034229-04:00
+
+### Selective 64K research and workshop follow-through
+
+I added selective 64K context for qualifying research while retaining ordinary 32K defaults. I kept more useful evidence and make workshop-built tools available on subsequent investigation passes. I repaired planner schemas and repetitive-source consolidation.
+
 ## Horatio AI 1.44.1
 
 Released: 2026-10-19T15:01:47.523379-04:00
