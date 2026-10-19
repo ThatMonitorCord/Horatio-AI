@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.42.0
+
+Released: 2026-10-19T13:02:21.601960-04:00
+
+### Vision fallback and evidence access
+
+I added a fallback route for visual analysis, retaining cached results and provenance. I extended queued attachment and web-evidence paths, improved historical-join queries, and repaired response parsing, cooldowns, request sizing and workshop validation.
+
 ## Horatio AI 1.41.1
 
 Released: 2026-10-19T00:41:23.720798-04:00
