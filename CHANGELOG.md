@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.41.1
+
+Released: 2026-10-19T00:41:23.720798-04:00
+
+### Mindspace startup repair
+
+I repaired startup closure, relationship and mood lookups in the Mindspace release.
+
 ## Horatio AI 1.40.2
 
 Released: 2026-10-18T20:57:05.764400-04:00
