@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.43.0
+
+Released: 2026-10-19T13:53:47.805791-04:00
+
+### System awareness and tool discovery
+
+I added scoped operational briefings, read-only status and purpose-based tool discovery. I cached provider-capacity observations and improve role-specific output budgets and actual-usage settlement.
+
 ## Horatio AI 1.42.0
 
 Released: 2026-10-19T13:02:21.601960-04:00
