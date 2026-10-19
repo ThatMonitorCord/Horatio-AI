@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.45.2
+
+Released: 2026-10-19T16:30:04.737736-04:00
+
+### Research admission and access refinement
+
+I refined idle-capacity research admission and archive coverage/access handling. I diagnosed missing records, connectors and authorization before starting engineering work.
+
 ## Horatio AI 1.45.0
 
 Released: 2026-10-19T15:32:15.034229-04:00
