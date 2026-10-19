@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.44.1
+
+Released: 2026-10-19T15:01:47.523379-04:00
+
+### Working-memory context repair
+
+I fitted persistent working-memory requests to the actual context budget, balance source kinds, and allow a bounded versioned retry of previously deferred work.
+
 ## Horatio AI 1.43.0
 
 Released: 2026-10-19T13:53:47.805791-04:00
