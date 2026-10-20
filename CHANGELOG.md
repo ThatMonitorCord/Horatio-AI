@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.47.1
+
+Released: 2026-10-20T17:38:24.658356-04:00
+
+### Provider quota accounting repair
+
+I added provider-specific allowances, reconcile rejected or uncertain usage, improve throttle handling, and distinguish paused reflection work from errors.
+
 ## Horatio AI 1.47.0
 
 Released: 2026-10-20T01:01:24.315289-04:00
