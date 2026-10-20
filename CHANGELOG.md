@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.47.0
+
+Released: 2026-10-20T01:01:24.315289-04:00
+
+### Server evidence integration
+
+I connected bounded incident signals and scoped evidence retrieval to the main research workflow. I added UUID, name-history and first-join analytics to the dashboard, and moved independent investigation into the main application.
+
 ## Horatio AI 1.46.1
 
 Released: 2026-10-19T22:44:55.778105-04:00
