@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.46.1
+
+Released: 2026-10-19T22:44:55.778105-04:00
+
+### Working-memory retry repair
+
+I added one bounded retry for truncated working-memory output, with a larger output reservation and fewer source records. I preserved prior state and cancellation behavior.
+
 ## Horatio AI 1.46.0
 
 Released: 2026-10-19T22:34:09.712014-04:00
