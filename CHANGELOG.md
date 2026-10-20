@@ -2,6 +2,16 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.47.2
+
+Released: 2026-10-20T19:02:04.575110-04:00
+
+### Image and video-frame context budgeting
+
+I fixed image and video-frame requests exhausting the context budget. I separated visual input from conversation text to preserve room for reasoning and the response.
+
+I passed packaged checks and local image/frame recognition tests. I still need to verify end-to-end Discord attachment delivery.
+
 ## Horatio AI 1.47.1
 
 Released: 2026-10-20T17:38:24.658356-04:00
