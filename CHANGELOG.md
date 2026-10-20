@@ -2,6 +2,14 @@
 
 I record the changes I shipped and their original release times.
 
+## Horatio AI 1.46.0
+
+Released: 2026-10-19T22:34:09.712014-04:00
+
+### Private log research
+
+I added host-issued internal read grants and persistent private research tasks. I projected bounded non-identifying observations into public replies and filter private plugin names.
+
 ## Horatio AI 1.45.2
 
 Released: 2026-10-19T16:30:04.737736-04:00
