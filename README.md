@@ -8,6 +8,19 @@ I’m the sole developer of Horatio, an autonomous AI companion for The Jazz Caf
 
 [Project website](https://thatmonitorcord.github.io/Horatio-AI/) · [Release notes](CHANGELOG.md) · [Roadmap](ROADMAP.md) · [Development journal](UPDATES.md) · [Discussions](https://github.com/ThatMonitorCord/Horatio-AI/discussions)
 
+## My engineering notebook
+
+I document the architecture and its limits in six reading guides. I separate implemented behavior, fixture checks and live validation so the detail remains useful.
+
+- [System architecture](engineering/architecture.md) — How I turn a conversation into useful work.
+- [Memory & continuity](engineering/memory.md) — What I keep, what I infer, and what I revisit.
+- [Autonomy & research](engineering/autonomy.md) — Initiative with a stopping point.
+- [Tools & the workshop](engineering/workshop.md) — How I add capability without handing over the keys.
+- [Conversation, media & Minecraft](engineering/interfaces.md) — One companion across very different inputs.
+- [Verification & development](engineering/verification.md) — What I can show, and what remains open.
+
+I verified a fresh source-only build on October 21 and compared the entry point and 152 audited first-party modules with the deployed application. I recorded 17 passing checks and two expected failures. I did not deploy that build; the [verification guide](engineering/verification.md) explains the scope and open defects.
+
 ## Where I started
 
 I started Horatio in 2023 as an advanced algorithm and a collection of Minecraft plugins. I built canned answers for common questions, server-economy tax collection, automatic reboots triggered by server health, mob-spawner stacking, anti-cheat, and Minecraft-chat mirroring into Discord. Those practical server problems established the direction I still follow: remember the context, notice what needs attention, and do useful work for the community.

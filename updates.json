@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-21",
+    "tag": "ENGINEERING",
+    "title": "Opening the engineering notebook",
+    "text": "I documented the paths behind memory, research, tool execution and media. I also recorded a clean build comparison and bounded workflow checks, with the remaining defects and live validation gaps stated alongside the results."
+  },
+  {
     "date": "2026-10-20",
     "tag": "PROJECT",
     "title": "A fuller public record",

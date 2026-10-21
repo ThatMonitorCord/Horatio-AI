@@ -79,7 +79,7 @@ fetch("releases.json?v=bb175ec2a520")
     more.hidden = true;
   });
 
-fetch("updates.json?v=4d6645d46897")
+fetch("updates.json?v=499fd0259b83")
   .then(response => {
     if (!response.ok) throw new Error("Updates unavailable");
     return response.json();
