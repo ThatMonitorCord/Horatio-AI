@@ -1,24 +1,23 @@
-# My roadmap
+# Roadmap
 
-Updated October 21, 2026. I use this as a priority list; I have not committed to delivery dates.
+Updated October 21, 2026.
 
 ## Now
 
-- **Index freshness and startup cleanup:** I have reproduced defects with empty reference documents and early startup failure; I’m preparing separate fixes.
-- **Delivery evidence:** I’m separating generated-answer status from confirmed delivery in diagnostics.
-
-- **Real media delivery:** I’m verifying Discord attachments from receipt to a useful response, including images and video frames.
-- **Background work:** I’m observing queues, retries and capacity to reduce repeated work.
+- **Persistent state:** Repair stale reference indexes and improve startup cleanup.
+- **Delivery diagnostics:** Distinguish generated responses from confirmed delivery.
+- **Media handling:** Improve attachment processing from receipt through analysis and response.
+- **Background work:** Reduce repeated investigations and refine queue behavior.
 
 ## Next
 
-- **Research outcomes:** I’ll check that new evidence reaches a completed investigation or a clear reason to defer.
-- **Corrections and tools:** I’ll verify that corrections change later decisions and new tools finish their original task.
+- **Research outcomes:** Connect new evidence to completed investigations and useful follow-up work.
+- **Corrections and tools:** Carry corrections into later decisions and put workshop-built tools to work.
 
 ## Later
 
-- **Maintainable builds:** I’ve verified a clean source-only build. I’ll reduce legacy coupling and broaden release checks.
+- **Maintainability:** Reduce legacy coupling and improve repeatable packaging.
 
 ## Recently completed
 
-I repaired image and video-frame context budgeting, improved capacity accounting and throttling, reduced backup duplication, and published this development record.
+Repaired image and video-frame context budgeting, improved capacity accounting, reduced backup duplication and expanded the engineering notebook.

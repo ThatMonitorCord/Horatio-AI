@@ -40,9 +40,6 @@ function render() {
       node("p", release.component, "release-component"));
     const body = node("div");
     body.append(node("h4", release.title), node("p", release.summary));
-    if (release.validation) {
-      body.append(node("p", release.validation, "release-validation"));
-    }
     article.append(meta, body);
     list.append(article);
   });
@@ -60,7 +57,7 @@ search.addEventListener("input", resetArchive);
 component.addEventListener("change", resetArchive);
 more.addEventListener("click", () => { limit += 12; render(); });
 
-fetch("releases.json?v=bb175ec2a520")
+fetch("releases.json?v=8d78f5929168")
   .then(response => {
     if (!response.ok) throw new Error("Release notes unavailable");
     return response.json();
@@ -79,7 +76,7 @@ fetch("releases.json?v=bb175ec2a520")
     more.hidden = true;
   });
 
-fetch("updates.json?v=499fd0259b83")
+fetch("updates.json?v=12746c740cb8")
   .then(response => {
     if (!response.ok) throw new Error("Updates unavailable");
     return response.json();

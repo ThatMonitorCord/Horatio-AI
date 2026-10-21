@@ -1,21 +1,21 @@
-# My development journal
+# Development journal
+
+## 2026-10-21 · Opening the engineering notebook
+
+Added six engineering guides covering architecture, persistent memory, autonomous research, tools, media and operations.
 
 ## 2026-10-20 · A fuller public record
 
-I expanded the project overview to explain memory, autonomous work selection, research, tools and server integration. I also added the 2023 origins and a direct invitation to meet Horatio in The Jazz Cafe.
+Expanded the project overview with memory, autonomous work selection, research and server integration. Added Horatio’s 2023 origins and an invitation to meet him in The Jazz Cafe.
 
 ## 2026-10-20 · Separating image and text budgets
 
-I traced the media-budget failure to image transport being counted as conversation text. I separated the visual allowance from the text budget and passed local image and frame checks. I still need to verify real Discord attachment delivery.
+Traced the media-budget failure to encoded image data being counted as conversation text. Separated visual and text allowances to preserve room for reasoning and responses.
 
 ## 2026-10-20 · Less duplication in backups
 
-I changed the backup workflow to avoid redundant copies of application data. I also organized the release history and staging checkpoints so I can trace changes without keeping a full duplicate of every data store.
+Reduced redundant copies of application data in the backup workflow. Organized release history and staging checkpoints for easier change tracking.
 
 ## 2026-10-20 · Checking autonomous follow-through
 
-I’m focusing on whether background work reaches useful outcomes. I’m checking task completion, evidence access, corrections and tool reuse before I add another major system.
-
-## 21 October 2026 · My engineering notebook
-
-I added six technical guides covering architecture, memory, autonomy, the workshop, interfaces and verification. I recorded my clean build comparison and bounded checks, including two expected failures. I have not deployed a new application release.
+Focused development on research completion, corrections and tool reuse, with closer attention to queues, retries and repeated work.

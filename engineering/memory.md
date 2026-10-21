@@ -1,6 +1,6 @@
 # Memory & continuity
 
-[Hub](../README.md) · My engineering notebook · 21 October 2026
+[Hub](../README.md) · Engineering notebook · 21 October 2026
 
 ## Several kinds of memory
 
@@ -12,7 +12,7 @@ The retrieval pipeline assembles a bounded selection of history, reference mater
 
 ## Consolidation and correction
 
-Horatio develops and revises memories within a system that applies deduplication, decay and bounded context construction. Feedback can change his stored assessments and later retrieval. This is application-level learning: records and decisions change, without each conversation retraining model weights. A correction is useful only if later behavior reflects it.
+Horatio develops and revises memories within a system that applies deduplication, decay and bounded context construction. Feedback can change his stored assessments and later retrieval. Application-level learning updates stored records and decisions. A correction is useful only if later behavior reflects it.
 
 ## Working state and reflection
 
@@ -20,4 +20,4 @@ Each investigation receives a bounded working packet. Horatio develops working n
 
 ## Where memory can fail
 
-Horatio needs to distinguish missing evidence from evidence of absence. Incomplete imports, stale indexes and context limits can all hide a relevant record. My current maintenance work includes invalidating old indexed content when a reference becomes empty. I have reproduced that defect in a fixture; I have not presented it as fixed.
+Horatio needs to distinguish missing evidence from evidence of absence. Incomplete imports, stale indexes and context limits can all hide a relevant record. My current maintenance work includes invalidating old indexed content when a reference becomes empty.

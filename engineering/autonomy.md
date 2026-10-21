@@ -1,6 +1,6 @@
 # Autonomy & research
 
-[Hub](../README.md) · My engineering notebook · 21 October 2026
+[Hub](../README.md) · Engineering notebook · 21 October 2026
 
 ## Process at a glance
 
@@ -24,7 +24,7 @@ Horatio draws on specialized agents for analysis, retrieval, maintenance and eng
 
 ## Recovery without duplicate effects
 
-The runtime can retry a known read within limits. For an interrupted operation that may have changed state, it preserves the uncertainty and requests attention instead of replaying it blindly. Task ownership survives restart recovery. I do not describe a resumed task as transferring unfinished reasoning between agents.
+The runtime can retry a known read within limits. For an interrupted operation that may have changed state, it preserves the uncertainty and requests attention instead of replaying it blindly. Task ownership survives restart recovery.
 
 ## How I judge autonomy
 
