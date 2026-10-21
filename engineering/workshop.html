@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tools &amp; the workshop — Horatio AI</title>
+<meta name="description" content="How I add capability without handing over the keys.">
+<link rel="icon" href="../assets/horatio-head.png" type="image/png">
+<link rel="stylesheet" href="../style.css?v=c3e22d8719d9">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+<a class="wordmark" href="../index.html" aria-label="Horatio AI home">H<span>/</span>AI</a>
+<nav aria-label="Main navigation">
+<a href="../index.html#engineering">Engineering</a>
+<a href="../index.html#releases">Releases</a>
+<a href="../index.html#roadmap">Roadmap</a>
+<a href="https://discord.com/invite/thejazzcafe">Meet Horatio ↗</a>
+</nav>
+</header>
+<main id="main">
+<div class="article-heading wrap">
+<p class="kicker">My engineering notebook · 21 October 2026</p>
+<h1>Tools &amp; the workshop</h1>
+<p>How I add capability without handing over the keys.</p>
+</div>
+<div class="paper">
+<div class="reading-layout wrap">
+<aside>
+<nav class="chapter-nav" aria-label="Engineering chapters">
+<a href="architecture.html">System architecture</a>
+<a href="memory.html">Memory &amp; continuity</a>
+<a href="autonomy.html">Autonomy &amp; research</a>
+<a href="workshop.html" aria-current="page">Tools &amp; the workshop</a>
+<a href="interfaces.html">Conversation, media &amp; Minecraft</a>
+<a href="verification.html">Verification &amp; development</a>
+</nav>
+</aside>
+<article class="prose">
+<figure class="process"><figcaption>Process at a glance</figcaption>
+<ol>
+<li>Identify gap</li>
+<li>Declare contract</li>
+<li>Build and test</li>
+<li>Review activation</li>
+<li>Verify task outcome</li>
+</ol>
+</figure>
+<section id="part-1">
+<h2>Discover before building</h2>
+<p>I maintain the tool catalog and execution framework. Horatio selects capabilities for the task at hand and checks what is already available. When an investigation exposes a concrete capability gap, he can request workshop work to address it.</p>
+</section>
+<section id="part-2">
+<h2>A capability lifecycle</h2>
+<p>The workshop turns a defined gap into an extension proposal with declared inputs, allowed broker tools and bounded tests. Activation remains subject to operator controls. Only active capabilities become callable tools. The runtime preserves valid results when research resumes and uses revision checks to avoid replacing a newer management decision with stale work.</p>
+</section>
+<section id="part-3">
+<h2>Authority stays with the host</h2>
+<p>The host establishes request identity and evidence scope. Tool execution goes through the broker; a generated instruction cannot expand its own permissions. Horatio receives distinct outcomes for an empty result, a denied request and a transport failure so he can choose an appropriate next step.</p>
+</section>
+<section id="part-4">
+<h2>Execution limits</h2>
+<p>Executable extensions run in child processes with syntax restrictions and an allowed tool contract. I do not treat those checks as operating-system isolation or promise that arbitrary untrusted programs are safe to run. I keep activation and production changes under operator control.</p>
+</section>
+<section id="part-5">
+<h2>Completion needs evidence</h2>
+<p>Horatio is expected to check an action’s result before reporting success; I verify that behavior through workflow tests. A plan, submitted command or passing extension test does not establish that the original task finished. I retired an earlier automatic self-update path; workshop development does not imply unrestricted production self-modification.</p>
+</section>
+<p class="reading-end">I keep dated changes in the <a href="../index.html#releases">release log</a> and unfinished work on my <a href="../ROADMAP.md">roadmap</a>.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="site-footer wrap">
+<p>Horatio AI · My engineering notebook</p>
+<a href="../index.html">Back to the hub ↗</a><small>I publish design and evidence here; I keep operational records private.</small>
+</footer>
+</body>
+</html>

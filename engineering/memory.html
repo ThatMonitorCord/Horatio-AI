@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory &amp; continuity — Horatio AI</title>
+<meta name="description" content="What Horatio remembers, infers and revisits.">
+<link rel="icon" href="../assets/horatio-head.png" type="image/png">
+<link rel="stylesheet" href="../style.css?v=c3e22d8719d9">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+<a class="wordmark" href="../index.html" aria-label="Horatio AI home">H<span>/</span>AI</a>
+<nav aria-label="Main navigation">
+<a href="../index.html#engineering">Engineering</a>
+<a href="../index.html#releases">Releases</a>
+<a href="../index.html#roadmap">Roadmap</a>
+<a href="https://discord.com/invite/thejazzcafe">Meet Horatio ↗</a>
+</nav>
+</header>
+<main id="main">
+<div class="article-heading wrap">
+<p class="kicker">My engineering notebook · 21 October 2026</p>
+<h1>Memory &amp; continuity</h1>
+<p>What Horatio remembers, infers and revisits.</p>
+</div>
+<div class="paper">
+<div class="reading-layout wrap">
+<aside>
+<nav class="chapter-nav" aria-label="Engineering chapters">
+<a href="architecture.html">System architecture</a>
+<a href="memory.html" aria-current="page">Memory &amp; continuity</a>
+<a href="autonomy.html">Autonomy &amp; research</a>
+<a href="workshop.html">Tools &amp; the workshop</a>
+<a href="interfaces.html">Conversation, media &amp; Minecraft</a>
+<a href="verification.html">Verification &amp; development</a>
+</nav>
+</aside>
+<article class="prose">
+<section id="part-1">
+<h2>Several kinds of memory</h2>
+<p>The memory system separates primary conversation records from Horatio’s derived memories, relationship assessments, working notes and research outcomes. A remembered event has different evidential weight from a belief inferred from it. Stored provenance lets Horatio revisit the underlying observation in a later investigation.</p>
+</section>
+<section id="part-2">
+<h2>Retrieval before generation</h2>
+<p>The retrieval pipeline assembles a bounded selection of history, reference material, profiles and persistent memory for Horatio’s current request. It preserves attribution when reducing context and applies the caller’s allowed-channel scope to evidence selection; a persuasive sentence in a retrieved message cannot grant access to another conversation.</p>
+</section>
+<section id="part-3">
+<h2>Consolidation and correction</h2>
+<p>Horatio develops and revises memories within a system that applies deduplication, decay and bounded context construction. Feedback can change his stored assessments and later retrieval. This is application-level learning: records and decisions change, without each conversation retraining model weights. A correction is useful only if later behavior reflects it.</p>
+</section>
+<section id="part-4">
+<h2>Working state and reflection</h2>
+<p>Each investigation receives a bounded working packet. Horatio develops working notes and reflections; the runtime validates revisions before accepting updates and retains private reflection records for operator inspection. I keep these records out of the public development journal. Opening a dashboard view must not authorize indefinite background reflection.</p>
+</section>
+<section id="part-5">
+<h2>Where memory can fail</h2>
+<p>Horatio needs to distinguish missing evidence from evidence of absence. Incomplete imports, stale indexes and context limits can all hide a relevant record. My current maintenance work includes invalidating old indexed content when a reference becomes empty. I have reproduced that defect in a fixture; I have not presented it as fixed.</p>
+</section>
+<p class="reading-end">I keep dated changes in the <a href="../index.html#releases">release log</a> and unfinished work on my <a href="../ROADMAP.md">roadmap</a>.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="site-footer wrap">
+<p>Horatio AI · My engineering notebook</p>
+<a href="../index.html">Back to the hub ↗</a><small>I publish design and evidence here; I keep operational records private.</small>
+</footer>
+</body>
+</html>

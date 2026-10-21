@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversation, media &amp; Minecraft — Horatio AI</title>
+<meta name="description" content="One companion across very different inputs.">
+<link rel="icon" href="../assets/horatio-head.png" type="image/png">
+<link rel="stylesheet" href="../style.css?v=c3e22d8719d9">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header wrap">
+<a class="wordmark" href="../index.html" aria-label="Horatio AI home">H<span>/</span>AI</a>
+<nav aria-label="Main navigation">
+<a href="../index.html#engineering">Engineering</a>
+<a href="../index.html#releases">Releases</a>
+<a href="../index.html#roadmap">Roadmap</a>
+<a href="https://discord.com/invite/thejazzcafe">Meet Horatio ↗</a>
+</nav>
+</header>
+<main id="main">
+<div class="article-heading wrap">
+<p class="kicker">My engineering notebook · 21 October 2026</p>
+<h1>Conversation, media &amp; Minecraft</h1>
+<p>One companion across very different inputs.</p>
+</div>
+<div class="paper">
+<div class="reading-layout wrap">
+<aside>
+<nav class="chapter-nav" aria-label="Engineering chapters">
+<a href="architecture.html">System architecture</a>
+<a href="memory.html">Memory &amp; continuity</a>
+<a href="autonomy.html">Autonomy &amp; research</a>
+<a href="workshop.html">Tools &amp; the workshop</a>
+<a href="interfaces.html" aria-current="page">Conversation, media &amp; Minecraft</a>
+<a href="verification.html">Verification &amp; development</a>
+</nav>
+</aside>
+<article class="prose">
+<section id="part-1">
+<h2>Discord text</h2>
+<p>The Discord integration checks message eligibility and conversation scope, ingests eligible history and retrieves context. Horatio interprets the request, uses tools when needed and composes a response through the public output path. Horatio can be opinionated about coffee; a factual report still needs support.</p>
+</section>
+<section id="part-2">
+<h2>Voice</h2>
+<p>The voice pipeline connects received audio and speech recognition to Horatio’s reasoning, then synthesis and queued playback. It supports wake-word handling and voice-specific response limits, and serializes speech chunks to preserve their order. I measure transcription and audible delivery separately; a successful transcript is only one stage.</p>
+</section>
+<section id="part-3">
+<h2>Images and video</h2>
+<p>The media pipeline bounds attachment size and decoded dimensions before Horatio analyzes the content. Video input uses sampled frames, without continuous perception of every moment or guaranteed understanding of the soundtrack. The system records content analysis separately from each attachment occurrence, so a cached analysis does not erase where the media appeared.</p>
+</section>
+<section id="part-4">
+<h2>Context accounting</h2>
+<p>The context-budget system excludes encoded image transport from text accounting and estimates visual cost separately. It reserves output space and safety headroom before admitting input. This prevents a large encoded image string from consuming the conversation allowance. I have local image and frame checks; real Discord attachment receipt-to-reply validation remains outstanding.</p>
+</section>
+<section id="part-5">
+<h2>Server evidence and gameplay</h2>
+<p>Horatio investigates server events using timestamped telemetry, player history, server-health observations and bounded historical queries. Evidence carries freshness and coverage information: an empty query during incomplete ingestion proves little. Access controls restrict private evidence, with reduced summaries for public replies. In separate operator-started gameplay experiments, Horatio chooses actions within the session’s controls and checks observed state after navigation, crafting or other actions.</p>
+</section>
+<p class="reading-end">I keep dated changes in the <a href="../index.html#releases">release log</a> and unfinished work on my <a href="../ROADMAP.md">roadmap</a>.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="site-footer wrap">
+<p>Horatio AI · My engineering notebook</p>
+<a href="../index.html">Back to the hub ↗</a><small>I publish design and evidence here; I keep operational records private.</small>
+</footer>
+</body>
+</html>
