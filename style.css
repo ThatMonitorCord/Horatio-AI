@@ -1,18 +1,18 @@
 @font-face {
   font-family: Barlow;
-  src: url("assets/fonts/Barlow-Regular.ttf") format("truetype");
+  src: url("assets/fonts/Barlow-Regular.ttf?v=95aa02c7c430") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: Barlow;
-  src: url("assets/fonts/Barlow-SemiBold.ttf") format("truetype");
+  src: url("assets/fonts/Barlow-SemiBold.ttf?v=86577cb32f8a") format("truetype");
   font-weight: 600 900;
   font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
-  src: url("assets/fonts/BarlowCondensed-Bold.ttf") format("truetype");
+  src: url("assets/fonts/BarlowCondensed-Bold.ttf?v=e476562ec9c1") format("truetype");
   font-weight: 700;
   font-display: swap;
 }
