@@ -2,7 +2,7 @@
 
 [Hub](../README.md) · My engineering notebook · 21 October 2026
 
-## My process at a glance
+## Process at a glance
 
 1. Record objective
 2. Admit work
@@ -12,19 +12,19 @@
 
 ## From signal to objective
 
-I let questions, retained objectives and bounded incident signals feed work selection. I coalesce related signals before admitting an investigation so one event does not create a queue of near-identical tasks. I can inspect, steer, pause or cancel objectives through private controls.
+Horatio selects work from questions, retained objectives and bounded incident signals. The admission layer coalesces related signals so one event does not create a queue of near-identical tasks. I can inspect, steer, pause or cancel objectives through private controls.
 
 ## A durable investigation
 
-I record the objective and scope, admit work within available capacity, gather evidence and persist results. Before a tool call I record the intended operation and whether retrying it is safe. I reuse completed lookups where appropriate. I stop or defer work when evidence stops improving or a configured limit is reached.
+Horatio decides which evidence to pursue and whether an investigation needs further work. The runtime records the objective and scope, admits work within available capacity and persists results. Before a tool call, it records the intended operation and whether retrying it is safe. Completed lookups can be reused. Progress checks and configured limits bound how long an investigation continues before completion, deferral or operator attention.
 
 ## Specialist assistance
 
-I coordinate a network of specialized agents for analysis, retrieval, maintenance and engineering. I assign bounded tasks and keep a single public response path. I reserve capacity before dispatch, reconcile reported usage afterward, and apply cooldowns after rejection. Cancellation of a waiting task does not necessarily stop a request already in transit.
+Horatio draws on specialized agents for analysis, retrieval, maintenance and engineering. The orchestration layer dispatches bounded tasks while preserving his single public response path. Capacity accounting reserves resources before dispatch, reconciles reported usage afterward and applies cooldowns after rejection. Cancellation of a waiting task does not necessarily stop a request already in transit.
 
 ## Recovery without duplicate effects
 
-I can retry a known read within limits. For an interrupted operation that may have changed state, I preserve the uncertainty and request attention instead of replaying it blindly. I retain task ownership across restart recovery. I do not describe a resumed task as transferring unfinished reasoning between agents.
+The runtime can retry a known read within limits. For an interrupted operation that may have changed state, it preserves the uncertainty and requests attention instead of replaying it blindly. Task ownership survives restart recovery. I do not describe a resumed task as transferring unfinished reasoning between agents.
 
 ## How I judge autonomy
 

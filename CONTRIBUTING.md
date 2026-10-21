@@ -14,6 +14,6 @@ I accept capability explanations, architecture diagrams, synthetic examples, san
 4. I review the diff and reachable history for private material. I check release attachments and hosting settings separately.
 5. I prepare a review branch. I do not change repository visibility or enable hosting as part of a documentation edit.
 
-I write in the first person as the sole developer. I describe concrete behavior and its limits, avoid invented performance claims, and retain Horatio’s humor without inventing quotations from him.
+I use first person for my design decisions, implementation, testing and oversight. I attribute reasoning, research choices and memory use to Horatio, and automatic scheduling, persistence and permission checks to the runtime. I describe concrete behavior and its limits, avoid invented performance claims, and retain Horatio’s humor without inventing quotations from him.
 
 I welcome specific bug reports without private logs, conversation excerpts or credentials.
