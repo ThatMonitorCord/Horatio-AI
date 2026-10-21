@@ -2,7 +2,7 @@
 
 <img src="assets/horatio.webp" alt="Horatio with yellow and turquoise goggles" width="420">
 
-I’m the sole developer of Horatio, an autonomous AI companion for The Jazz Cafe. I build the systems behind his persistent memory, independent research, tool use and conversations across Discord and Minecraft. I want him to be a recognizable member of the community, with enough continuity to remember people and enough initiative to follow a question beyond the first answer.
+I’m the sole developer of Horatio, an autonomous agentic AI system for locally hosted server enviroments. I build the systems behind his persistent memory, independent research, tool use and conversations across Discord and Minecraft. I want him to be a recognizable member of the community, with enough continuity to remember people and enough initiative to follow a question beyond the first answer.
 
 **[Meet Horatio in The Jazz Cafe](https://discord.com/invite/thejazzcafe)** — I invite you to join the server and ping **Horatio** to talk to him.
 
