@@ -18,8 +18,8 @@
     "version": "1.47.0",
     "component": "Horatio AI",
     "date": "2026-10-20",
-    "title": "Server evidence service data-service integration",
-    "summary": "Integrate bounded incident signals and scoped evidence retrieval from the server evidence service into the main research workflow. Add UUID/name/first-join analytics and dashboard integration. The coordinated the server evidence service update moves independent reasoning to the main application."
+    "title": "Server evidence integration",
+    "summary": "Integrate bounded incident signals and scoped evidence retrieval from the server evidence service into the main research workflow. Add UUID/name/first-join analytics and dashboard integration. The coordinated update moves independent reasoning to the main application."
   },
   {
     "version": "1.46.1",
@@ -635,7 +635,7 @@
     "component": "Horatio AI",
     "date": "2026-09-27",
     "title": "Application update",
-    "summary": "Private Operator Chat, directives and Codex CLI engineering consultation."
+    "summary": "Private Operator Chat, directives and engineering consultation."
   },
   {
     "version": "1.7.0",

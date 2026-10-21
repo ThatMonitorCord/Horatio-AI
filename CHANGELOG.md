@@ -14,7 +14,7 @@ Add provider-specific allowances, reconcile rejected or uncertain usage, improve
 
 ## Horatio AI 1.47.0 · 2026-10-20
 
-Integrate bounded incident signals and scoped evidence retrieval from the server evidence service into the main research workflow. Add UUID/name/first-join analytics and dashboard integration. The coordinated the server evidence service update moves independent reasoning to the main application.
+Integrate bounded incident signals and scoped evidence retrieval from the server evidence service into the main research workflow. Add UUID/name/first-join analytics and dashboard integration. The coordinated update moves independent reasoning to the main application.
 
 ## Horatio AI 1.46.1 · 2026-10-19
 
@@ -366,7 +366,7 @@ Repair configuration migration/path handling.
 
 ## Horatio AI 1.8.0 · 2026-09-27
 
-Private Operator Chat, directives and Codex CLI engineering consultation.
+Private Operator Chat, directives and engineering consultation.
 
 ## Horatio AI 1.7.0 · 2026-09-27
 
