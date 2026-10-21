@@ -1,0 +1,843 @@
+[
+  {
+    "version": "1.47.2",
+    "component": "Horatio AI",
+    "date": "2026-10-20",
+    "title": "Image and video-frame context budgeting",
+    "summary": "Fixed image and video-frame requests incorrectly exhausting the context budget. Visual input now has a separate allowance, preserving room for reasoning and a useful response.",
+    "validation": "Packaged checks and local image/frame recognition passed. End-to-end Discord attachment delivery still needs verification."
+  },
+  {
+    "version": "1.47.1",
+    "component": "Horatio AI",
+    "date": "2026-10-20",
+    "title": "Provider quota accounting repair",
+    "summary": "Add provider-specific allowances, reconcile rejected or uncertain usage, improve throttle handling, and distinguish paused reflection work from errors."
+  },
+  {
+    "version": "1.47.0",
+    "component": "Horatio AI",
+    "date": "2026-10-20",
+    "title": "Server evidence service data-service integration",
+    "summary": "Integrate bounded incident signals and scoped evidence retrieval from the server evidence service into the main research workflow. Add UUID/name/first-join analytics and dashboard integration. The coordinated the server evidence service update moves independent reasoning to the main application."
+  },
+  {
+    "version": "1.46.1",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Working-memory retry repair",
+    "summary": "Add one bounded retry for truncated working-memory output, with a larger output reservation and fewer source records. Preserve prior state and cancellation behavior."
+  },
+  {
+    "version": "1.46.0",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Private log research",
+    "summary": "Add host-issued internal read grants and persistent private research tasks. Project bounded non-identifying observations into public replies and filter private plugin names."
+  },
+  {
+    "version": "1.45.2",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Research admission and access refinement",
+    "summary": "Refine idle-capacity research admission and archive coverage/access handling. Diagnose missing records, connectors and authorization before starting engineering work."
+  },
+  {
+    "version": "1.45.0",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Selective 64K research and workshop follow-through",
+    "summary": "Add selective 64K context for qualifying research while retaining ordinary 32K defaults. Keep more useful evidence and make workshop-built tools available on subsequent investigation passes. Repair planner schemas and repetitive-source consolidation."
+  },
+  {
+    "version": "1.44.1",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Working-memory context repair",
+    "summary": "Fit persistent working-memory requests to the actual context budget, balance source kinds, and allow a bounded versioned retry of previously deferred work."
+  },
+  {
+    "version": "1.43.0",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "System awareness and tool discovery",
+    "summary": "Add scoped operational briefings, read-only status and purpose-based tool discovery. Cache provider-capacity observations and improve role-specific output budgets and actual-usage settlement."
+  },
+  {
+    "version": "1.42.0",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Cloud vision and evidence access",
+    "summary": "Add cloud vision fallback through the configured free Google worker pool when local vision is unavailable. Preserve cache and provenance, extend queued attachment/web paths and historical-join evidence access, and repair provider parsing, cooldowns, request sizing and workshop validation."
+  },
+  {
+    "version": "1.41.1",
+    "component": "Horatio AI",
+    "date": "2026-10-19",
+    "title": "Mindspace startup repair",
+    "summary": "Repair startup closure, relationship and mood lookups in the Mindspace release."
+  },
+  {
+    "version": "1.40.2",
+    "component": "Horatio AI",
+    "date": "2026-10-18",
+    "title": "Conversation and follow-up refinements",
+    "summary": "Refine code-example restrictions, follow-up cooldowns, capability/action wording, deferred-curiosity retries and personality instruction handling. Synchronize bundled source."
+  },
+  {
+    "version": "1.40.1",
+    "component": "Horatio AI",
+    "date": "2026-10-18",
+    "title": "Cloud maintenance repair",
+    "summary": "Repair maintenance model fallbacks, distinguish byte sizing from token sizing, and clarify rejected-request errors."
+  },
+  {
+    "version": "1.40.0",
+    "component": "Horatio AI",
+    "date": "2026-10-18",
+    "title": "Connected outcomes and conversational retrieval",
+    "summary": "Add permission-checked parent and neighboring conversation context. Connect completed research to follow-up hypotheses, flag assessments affected by corrections, activate missing work-selection/outcome defaults, and expose effective features and build identity."
+  },
+  {
+    "version": "1.36.5",
+    "component": "Horatio AI",
+    "date": "2026-10-14",
+    "title": "Application update",
+    "summary": "Stabilize tool concurrency, delivery and numeric/evidence handling."
+  },
+  {
+    "version": "1.36.4",
+    "component": "Horatio AI",
+    "date": "2026-10-13",
+    "title": "Application update",
+    "summary": "Ground follow-ups in the original question."
+  },
+  {
+    "version": "1.36.3",
+    "component": "Horatio AI",
+    "date": "2026-10-13",
+    "title": "Application update",
+    "summary": "Repair membership/permission handling."
+  },
+  {
+    "version": "1.36.2",
+    "component": "Horatio AI",
+    "date": "2026-10-13",
+    "title": "Application update",
+    "summary": "Reuse saved tool calls and separate planning/native execution to finish resumed investigations."
+  },
+  {
+    "version": "1.35.3",
+    "component": "Horatio AI",
+    "date": "2026-10-13",
+    "title": "Application update",
+    "summary": "Complete Part 1: preserve valid tool results and distinguish unknown players from transport failures."
+  },
+  {
+    "version": "1.35.2",
+    "component": "Horatio AI",
+    "date": "2026-10-13",
+    "title": "Application update",
+    "summary": "Repair Operator Chat recovery across application restart."
+  },
+  {
+    "version": "1.35.1",
+    "component": "Horatio AI",
+    "date": "2026-10-13",
+    "title": "Application update",
+    "summary": "Repair duplicate account links, objective targeting, research and mistaken refusals (Part 1)."
+  },
+  {
+    "version": "1.35.0",
+    "component": "Horatio AI",
+    "date": "2026-10-12",
+    "title": "Application update",
+    "summary": "Executable-extension workshop UI, archived operator chats and persistent approval controls."
+  },
+  {
+    "version": "1.34.0",
+    "component": "Horatio AI",
+    "date": "2026-10-11",
+    "title": "Application update",
+    "summary": "Persistent the tool workshop operator research/chat, steering, approvals and raw the server evidence service log transfer."
+  },
+  {
+    "version": "1.33.1",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Repair prestige-suffix parsing and gameplay income planning."
+  },
+  {
+    "version": "1.33.0",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Recipe-book crafting and inventory goal actions."
+  },
+  {
+    "version": "1.32.3",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Filter unrelated chat from command-feedback records."
+  },
+  {
+    "version": "1.32.2",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Pause/retry the tool workshop rather than silently switching gameplay to the local fallback."
+  },
+  {
+    "version": "1.32.1",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Repair combat, death recovery and failed gameplay-tool handling."
+  },
+  {
+    "version": "1.32.0",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Separate the tool workshop gameplay planning pass with bounded delegation and menu tooltips."
+  },
+  {
+    "version": "1.31.2",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Expand construction checks for doors/beds, sleeping and sign reading."
+  },
+  {
+    "version": "1.31.1",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Refresh stale schemas and distinguish pending actions from blocked gameplay."
+  },
+  {
+    "version": "1.31.0",
+    "component": "Horatio AI",
+    "date": "2026-10-09",
+    "title": "Application update",
+    "summary": "Generated schematics, material bills and verified Baritone construction."
+  },
+  {
+    "version": "1.30.5",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Improve reconnect recovery and book reading within existing gameplay."
+  },
+  {
+    "version": "1.30.4",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Repair SellGUI/navigation, command completion and requested-block equipment."
+  },
+  {
+    "version": "1.30.3",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Improve HUD/command feedback and claim context; separate bridge startup repair followed."
+  },
+  {
+    "version": "1.30.2",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Expand existing game observation/control with bossbars and command completion."
+  },
+  {
+    "version": "1.30.1",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Repair client-log selection, rank/name parsing and suppressed game replies."
+  },
+  {
+    "version": "1.30.0",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Write observed gameplay into persistent memory and use it in in-game chat."
+  },
+  {
+    "version": "1.29.0",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "the tool workshop-led gameplay with death recovery, economy and menu control."
+  },
+  {
+    "version": "1.28.0",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Durable continuous gameplay plans and one-click survival objectives."
+  },
+  {
+    "version": "1.27.1",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Use existing server knowledge in game plans and quiet join behavior."
+  },
+  {
+    "version": "1.27.0",
+    "component": "Horatio AI",
+    "date": "2026-10-08",
+    "title": "Application update",
+    "summary": "Structured Fabric bridge skills and background Baritone actions."
+  },
+  {
+    "version": "1.26.1",
+    "component": "Horatio AI",
+    "date": "2026-10-07",
+    "title": "Application update",
+    "summary": "Recognize the configured Minecraft account name in chat addressing."
+  },
+  {
+    "version": "1.26.0",
+    "component": "Horatio AI",
+    "date": "2026-10-07",
+    "title": "Application update",
+    "summary": "Operator-started Minecraft gameplay with screenshot-based control and in-game arrival/chat integration."
+  },
+  {
+    "version": "1.25.1",
+    "component": "Horatio AI",
+    "date": "2026-10-07",
+    "title": "Application update",
+    "summary": "Repair tool routing, the tool workshop authentication/advice and vector-cache persistence; restore the earlier model settings."
+  },
+  {
+    "version": "1.25.0",
+    "component": "Horatio AI",
+    "date": "2026-10-07",
+    "title": "Application update",
+    "summary": "Integrate the tool workshop background engineering/advice; coordinate a separate local-model change."
+  },
+  {
+    "version": "1.24.2",
+    "component": "Horatio AI",
+    "date": "2026-10-06",
+    "title": "Application update",
+    "summary": "Expand the new extension runner's bounded public HTTPS retrieval."
+  },
+  {
+    "version": "1.23.1",
+    "component": "Horatio AI",
+    "date": "2026-10-06",
+    "title": "Application update",
+    "summary": "Allow the enable command through the single-instance guard; repair voice packaging."
+  },
+  {
+    "version": "1.23.0",
+    "component": "Horatio AI",
+    "date": "2026-10-06",
+    "title": "Application update",
+    "summary": "Recorded 90-day player-activity evidence."
+  },
+  {
+    "version": "1.22.1",
+    "component": "Horatio AI",
+    "date": "2026-10-06",
+    "title": "Application update",
+    "summary": "Improve question-specific tool routing and existing warp-tool use."
+  },
+  {
+    "version": "1.22.0",
+    "component": "Horatio AI",
+    "date": "2026-10-06",
+    "title": "Application update",
+    "summary": "Multiple tool rounds, multi-player statistics and UUID fallback."
+  },
+  {
+    "version": "1.21.1",
+    "component": "Horatio AI",
+    "date": "2026-10-06",
+    "title": "Application update",
+    "summary": "Repair conversational repetition and continuity."
+  },
+  {
+    "version": "1.21.0",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Stored TPS history and graphs, with dashboard readability improvements."
+  },
+  {
+    "version": "1.20.1",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Exclude inactive summary chunks from pending-embedding counts."
+  },
+  {
+    "version": "1.20.0",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Background profiling of notable bans and historical ban evidence."
+  },
+  {
+    "version": "1.19.0",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Named-player ban evidence tool through the server evidence service."
+  },
+  {
+    "version": "1.18.0",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Dashboard overhaul with activity graphs, agent state and persistent status/navigation."
+  },
+  {
+    "version": "1.17.0",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Separate pending work from development history; archive reviewed work and expose work queues/guidance."
+  },
+  {
+    "version": "1.16.3",
+    "component": "Horatio AI",
+    "date": "2026-10-05",
+    "title": "Application update",
+    "summary": "Repair dashboard request timeouts."
+  },
+  {
+    "version": "1.16.2",
+    "component": "Horatio AI",
+    "date": "2026-10-04",
+    "title": "Application update",
+    "summary": "Improve the server evidence service overview/status presentation."
+  },
+  {
+    "version": "1.16.1",
+    "component": "Horatio AI",
+    "date": "2026-10-04",
+    "title": "Application update",
+    "summary": "Expand the existing the server evidence service administration-report integration."
+  },
+  {
+    "version": "1.16.0",
+    "component": "Horatio AI",
+    "date": "2026-10-02",
+    "title": "Application update",
+    "summary": "Connect the separate the server evidence service service and its administration/activity/warp evidence tools."
+  },
+  {
+    "version": "1.15.0",
+    "component": "Horatio AI",
+    "date": "2026-10-02",
+    "title": "Application update",
+    "summary": "Server administration metrics and deeper private operator investigations/planning."
+  },
+  {
+    "version": "1.14.9",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Generate rants dynamically rather than repeating canned text."
+  },
+  {
+    "version": "1.14.8",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Refine repeated probing and personalized rant behavior."
+  },
+  {
+    "version": "1.14.7",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Repair conversational continuity, Bedrock roster handling and wake words."
+  },
+  {
+    "version": "1.14.6",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Bound same-user follow-up context, enforce writing style and check existing tools before proposing duplicates."
+  },
+  {
+    "version": "1.14.5",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Avoid synchronous search-index refreshes during voice replies; restore audible acknowledgements."
+  },
+  {
+    "version": "1.14.4",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Repair alternate-account privacy handling."
+  },
+  {
+    "version": "1.14.3",
+    "component": "Horatio AI",
+    "date": "2026-09-29",
+    "title": "Application update",
+    "summary": "Prevent internal output from leaking into public replies."
+  },
+  {
+    "version": "3.5.1",
+    "component": "Minecraft Companion",
+    "date": "2026-09-28",
+    "title": "Companion update",
+    "summary": "Improve private-LAN query discovery and companion integration; keep plugin replies in canned-response mode while the standalone application handles AI conversations."
+  },
+  {
+    "version": "3.5",
+    "component": "Minecraft Companion",
+    "date": "2026-09-28",
+    "title": "Companion update",
+    "summary": "Expand authenticated on-demand Minecraft player statistics and sampled player traffic for the standalone application."
+  },
+  {
+    "version": "1.14.2",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Repair public-web result parsing."
+  },
+  {
+    "version": "1.14.1",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Discover telemetry endpoints and coordinate the companion's canned-only behavior."
+  },
+  {
+    "version": "1.14.0",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Direct Minecraft telemetry and player-stat tools."
+  },
+  {
+    "version": "1.13.2",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Prevent stale skip decisions from vetoing new work."
+  },
+  {
+    "version": "1.13.1",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Broaden existing guild questions and relationship responses."
+  },
+  {
+    "version": "1.13.0",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Expose the shared answer tool catalog to background agents."
+  },
+  {
+    "version": "1.12.2",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Repair voice-visit scheduling and retry."
+  },
+  {
+    "version": "1.12.1",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Repair manual voice-visit eligibility."
+  },
+  {
+    "version": "1.12.0",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Scripted voice visits, intention controls and capability-gap tracking."
+  },
+  {
+    "version": "1.11.0",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Local web access, bounded public tool workshop and operator web workflow."
+  },
+  {
+    "version": "1.10.1",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Improve objective investigation, evidence and rejection feedback."
+  },
+  {
+    "version": "1.10.0",
+    "component": "Horatio AI",
+    "date": "2026-09-28",
+    "title": "Application update",
+    "summary": "Retire automatic self-updating/generated-tool installation; add adviser-only catch-up and belief, prediction, intention and relationship consolidation."
+  },
+  {
+    "version": "1.9.4",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Repair consultant workspace CLI arguments."
+  },
+  {
+    "version": "1.9.3",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Repair duplicate-job ownership with a unique lease."
+  },
+  {
+    "version": "1.9.2",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Repair response schema handling."
+  },
+  {
+    "version": "1.9.1",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Repair consultant request sizing and progress reporting."
+  },
+  {
+    "version": "1.9.0",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Reviewed self-build/update workflow and permission inbox, subsequently retired."
+  },
+  {
+    "version": "1.8.1",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Repair configuration migration/path handling."
+  },
+  {
+    "version": "1.8.0",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Private Operator Chat, directives and Codex CLI engineering consultation."
+  },
+  {
+    "version": "1.7.0",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Post-response adaptive learning, after-action investigations, dashboard and consultant workflow."
+  },
+  {
+    "version": "1.6.0",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Durable private operator objectives with status and cancellation."
+  },
+  {
+    "version": "1.5.1",
+    "component": "Horatio AI",
+    "date": "2026-09-27",
+    "title": "Application update",
+    "summary": "Apply the new voice preset once and migrate obsolete configuration fields."
+  },
+  {
+    "version": "1.4.0",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Living memory, relationships, moods, rumors, newest-first learning and persistent retrieval."
+  },
+  {
+    "version": "1.3.5",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Restore the 1.2.3 base with one continuous audio player; shipped after 1.2.4."
+  },
+  {
+    "version": "1.3.4",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Roll back overly aggressive voice filtering/background behavior."
+  },
+  {
+    "version": "1.3.3",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Adjust wake window, background pausing and voice budgets."
+  },
+  {
+    "version": "1.3.2",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Reduce false wake-word activations."
+  },
+  {
+    "version": "1.3.1",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Serialize speech chunks to preserve playback order."
+  },
+  {
+    "version": "1.3.0",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Natural Voicebox/Chatterbox speech synthesis."
+  },
+  {
+    "version": "1.2.6",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Refine personality/lore controls and voice acknowledgements."
+  },
+  {
+    "version": "1.2.5",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Make the separate voice-model settings effective."
+  },
+  {
+    "version": "1.2.4",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Recover voice shutdown and switching behavior."
+  },
+  {
+    "version": "1.2.3",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Begin speech from validated streamed answer sentences."
+  },
+  {
+    "version": "1.2.2",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Prioritize the active voice conversation over typed and overlapping requests."
+  },
+  {
+    "version": "1.2.1",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Wake filtering, playback queue and voice shutdown refinements."
+  },
+  {
+    "version": "1.2.0",
+    "component": "Horatio AI",
+    "date": "2026-09-26",
+    "title": "Application update",
+    "summary": "Discord voice conversations with wake words, speaker identity and spoken replies."
+  },
+  {
+    "version": "3.4",
+    "component": "Minecraft Companion",
+    "date": "2026-09-25",
+    "title": "Companion update",
+    "summary": "Add Minecraft telemetry for integration with the standalone Horatio application."
+  },
+  {
+    "version": "1.1.2",
+    "component": "Horatio AI",
+    "date": "2026-09-25",
+    "title": "Summary formatting repair",
+    "summary": "Strict summary JSON and bounded repair of malformed model output."
+  },
+  {
+    "version": "1.1.1",
+    "component": "Horatio AI",
+    "date": "2026-09-25",
+    "title": "Application update",
+    "summary": "Parse verified account-linking embeds correctly."
+  },
+  {
+    "version": "1.1.0",
+    "component": "Horatio AI",
+    "date": "2026-09-25",
+    "title": "Application update",
+    "summary": "Broader profiles and context, Minecraft chat mirror and Discord/Minecraft account linking."
+  },
+  {
+    "version": "1.0.0",
+    "component": "Horatio AI",
+    "date": "2026-09-25",
+    "title": "Application update",
+    "summary": "Standalone Windows Discord assistant: local inference, history, profiles, retrieval and optional Minecraft telemetry.\n"
+  },
+  {
+    "version": "3.3",
+    "component": "Minecraft Companion",
+    "date": "2026-09-24",
+    "title": "Companion update",
+    "summary": "Add forum and reference-document evidence to the knowledge workflow."
+  },
+  {
+    "version": "3.2",
+    "component": "Minecraft Companion",
+    "date": "2026-09-24",
+    "title": "Companion update",
+    "summary": "Add persistent conversation memory."
+  },
+  {
+    "version": "3.1",
+    "component": "Minecraft Companion",
+    "date": "2026-09-23",
+    "title": "Companion update",
+    "summary": "Expand operator controls and conversation-history handling."
+  },
+  {
+    "version": "3.0",
+    "component": "Minecraft Companion",
+    "date": "2026-09-23",
+    "title": "Companion update",
+    "summary": "Add local Ollama integration, Discord connectivity, personality controls and retrieval."
+  },
+  {
+    "version": "2.3",
+    "component": "Minecraft Companion",
+    "date": "2026-09-12",
+    "title": "Companion update",
+    "summary": "Add webhook integration."
+  },
+  {
+    "version": "2.2",
+    "component": "Minecraft Companion",
+    "date": "2026-09-12",
+    "title": "Companion update",
+    "summary": "Add cooldown behavior to control repeated helper responses."
+  },
+  {
+    "version": "2.1",
+    "component": "Minecraft Companion",
+    "date": "2026-09-12",
+    "title": "Companion update",
+    "summary": "Improve ShreddedPaper compatibility and chat filtering/mute behavior.\n"
+  }
+]
