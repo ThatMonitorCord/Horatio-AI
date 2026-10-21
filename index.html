@@ -3,59 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Horatio AI: a local-first companion for Discord and Minecraft. Follow the releases, development journal and work ahead.">
+  <meta name="description" content="Horatio AI: a local-first companion for Discord and Minecraft. I build persistent memory, autonomous research and tool use for Discord and Minecraft.">
   <meta name="theme-color" content="#101111">
   <title>Horatio AI — Development journal</title>
-  <link rel="icon" href="assets/horatio-favicon-transparent.png" type="image/png">
+  <link rel="icon" href="assets/horatio-head.png" type="image/png">
   <link rel="preload" href="assets/fonts/BarlowCondensed-Bold.ttf?v=e476562ec9c1" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="style.css?v=57d1f861ce7c">
-  <script src="app.js?v=7d6b35c60bd7" defer></script>
+  <link rel="stylesheet" href="style.css?v=895a7b32c848">
+  <script src="app.js?v=0215b7411a7a" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header wrap">
     <a class="wordmark" href="#" aria-label="Horatio AI home">H<span aria-hidden="true">/</span>AI</a>
     <nav aria-label="Main navigation">
+      <a href="#systems">Systems</a>
       <a href="#releases">Releases</a>
       <a href="#roadmap">Roadmap</a>
       <a href="#updates">Journal</a>
-      <a href="https://github.com/ThatMonitorCord/Horatio-AI-Hub/discussions">Discuss ↗</a>
+      <a href="https://discord.com/invite/thejazzcafe">Meet Horatio ↗</a>
     </nav>
   </header>
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-heading">
-        <p class="kicker">Independent development · Discord &amp; Minecraft</p>
+        <p class="kicker">Built by one developer · Since 2023</p>
         <h1 id="hero-title">HORATIO<span>AI</span></h1>
       </div>
       <div class="hero-body">
         <div class="hero-copy">
-          <h2>A companion.<br> With opinions.</h2>
-          <p>Horatio remembers conversations, investigates questions, and brings his own attitude to Discord and Minecraft.</p>
-          <p class="hero-secondary">This is the public record of a local-first AI project: what shipped, what needs work, and what comes next.</p>
-          <a class="text-link" href="#releases">Read the latest release <span aria-hidden="true">↓</span></a>
+          <h2>I’m building an autonomous<br> companion.</h2>
+          <p>I build Horatio to remember people, pursue investigations and use tools across Discord and Minecraft. I’m his sole developer; The Jazz Cafe is his home.</p>
+          <p class="hero-secondary">I connect persistent memory, autonomous work selection and specialist subagents to a conversational character with opinions of his own.</p>
+          <a class="text-link" href="https://discord.com/invite/thejazzcafe">Meet Horatio on Discord <span aria-hidden="true">↗</span></a>
+          <p class="invitation-note">I invite you to join The Jazz Cafe and ping <strong>Horatio</strong>.</p>
         </div>
         <figure class="portrait">
           <img src="assets/horatio.webp" alt="Horatio waving, with yellow and turquoise goggles and a patchwork mechanical body." width="868" height="781" fetchpriority="high">
-          <figcaption>Horatio, in the metal.</figcaption>
+          <figcaption>My companion for The Jazz Cafe.</figcaption>
         </figure>
       </div>
-      <div class="edition"><span>Public development journal</span><span>Updated <time datetime="2026-10-20">20 October 2026</time></span></div>
+      <div class="edition"><span>My development journal</span><span>Updated <time datetime="2026-10-20">20 October 2026</time></span></div>
+    </section>
+
+    <section id="systems" class="section paper" aria-labelledby="systems-title">
+      <div class="wrap">
+        <div class="section-heading"><h2 id="systems-title">What I’m building</h2><p>I connect conversation to durable state, research and controlled action.</p></div>
+        <p class="systems-intro">I’m the sole developer of Horatio, an autonomous AI companion for The Jazz Cafe. I build the systems behind his persistent memory, independent research, tool use and conversations across Discord and Minecraft. I want him to be a recognizable member of the community, with enough continuity to remember people and enough initiative to follow a question beyond the first answer.</p>
+        <div class="systems-list">
+          <article class="system-row"><h3>Persistent memory</h3><div><p>I built Horatio to carry context between conversations, restarts and investigations. I persist conversational history, working memory, relationships, intentions and research outcomes instead of relying on a single prompt to remember everything.</p><details><summary>How I persist memory</summary><p>My retrieval pipeline assembles relevant records for each request. I keep source context alongside observations, distinguish tentative hypotheses from established findings, and retain corrections so later work can revisit an earlier assessment. I consolidate beliefs, predictions and relationship state through bounded maintenance tasks. I use SQLite-backed stores for durable state and separate retrieval from the live conversation so memory work does not unnecessarily delay a reply.</p></details></div></article>
+          <article class="system-row"><h3>Autonomous work selection</h3><div><p>I give Horatio persistent objectives and a work-selection system that can choose useful investigations between conversations. I can steer, pause or cancel that work through private operator controls.</p><details><summary>How I schedule autonomous work</summary><p>My scheduler separates admission, planning, execution and outcome recording. I use durable queues, task ownership, cancellation checks and commit guards to prevent overlapping workers from saving competing results. I prioritize public conversation over eligible background maintenance, limit repeated work, and record why an investigation completed, failed or was deferred. I assess autonomous work by its recorded outcome and whether it advances the original objective.</p></details></div></article>
+          <article class="system-row"><h3>Research and subagents</h3><div><p>I coordinate a network of specialist subagents through Horatio’s local orchestration layer. My task roles cover retrieval, analysis, memory maintenance, investigation and engineering, while Horatio keeps a consistent public voice.</p><details><summary>How I coordinate subagents</summary><p>Each task I delegate has an explicit purpose, an output budget and a permitted evidence scope. I connect completed research to follow-up hypotheses and revisit assessments when new evidence contradicts them. I use capacity accounting, cooldowns, retry limits and backpressure to keep delegated work within available resources. I preserve result ownership when a task is restarted or reassigned; I do not treat that as transferring unfinished reasoning between agents.</p></details></div></article>
+          <article class="system-row"><h3>Tools and controlled execution</h3><div><p>I maintain a shared tool catalog for conversation and background research, with purpose-based discovery and multi-step execution. I also built a workshop for developing capabilities when an investigation exposes a genuine gap.</p><details><summary>How I control tool execution</summary><p>I keep planning separate from native execution, preserve valid tool results across resumed investigations, and distinguish an empty result from a transport or permission failure. I bound retrieval and execution, retain approval decisions, and require tool output to be checked before Horatio claims an action succeeded. I retired an earlier automatic self-update path; I keep generated extensions behind execution and approval controls.</p></details></div></article>
+          <article class="system-row"><h3>Discord, voice and media</h3><div><p>I connect text and voice conversations to the same persistent context. I built wake-word handling, speaker identification, queued speech playback, streamed spoken replies and scheduled voice visits.</p><details><summary>How I handle voice and media</summary><p>My voice pipeline prioritizes an active conversation over competing requests and serializes speech chunks to preserve playback order. I support image and video-frame input with separate visual and text allowances so encoded image transport cannot consume the conversation budget. I have verified local image and frame recognition; I still need to complete the real Discord attachment path from receipt to reply.</p></details></div></article>
+          <article class="system-row"><h3>Minecraft and server evidence</h3><div><p>I connect Horatio to player statistics, identity history, server-health records and historical activity. I use the retained evidence to answer specific questions and investigate events across their recorded history.</p><details><summary>How I connect server evidence</summary><p>I expose scoped queries for UUID and name history, first joins, player activity, historical moderation evidence and server tick performance. I ingest bounded incident signals with durable cursors and coalesce related events before admitting research. I enforce read permissions on neighboring conversation context and keep private evidence out of public replies. I have also shipped operator-started gameplay experiments covering observation, navigation, crafting, construction planning and recovery; I am currently prioritizing research reliability over autonomous gameplay.</p></details></div></article>
+          <article class="system-row"><h3>Observability and operations</h3><div><p>I built an operator dashboard for objectives, activity, research state, approvals and the development record. I use Mindspace to inspect working memory and reflections as part of the same operational picture.</p><details><summary>How I inspect runtime state</summary><p>I distinguish queued work from running work, expose effective capabilities and build identity, and keep cancelled or paused work separate from errors. I budget ordinary requests for a 32K context window and admit suitable research tasks to a selective 64K path. I use bounded recovery for truncated output and separate input size, output reservations and visual allowances. I maintain release checks and rollback material, and avoid copying the same large data stores into every update backup.</p></details></div></article>
+        </div>
+        <div class="origins"><h3>Where I started · 2023</h3><p>I started Horatio in 2023 as an advanced algorithm and a collection of Minecraft plugins. I built canned answers for common questions, server-economy tax collection, automatic reboots triggered by server health, mob-spawner stacking, anti-cheat, and Minecraft-chat mirroring into Discord. Those practical server problems established the direction I still follow: remember the context, notice what needs attention, and do useful work for the community.</p></div>
+      </div>
     </section>
 
     <section id="releases" class="section paper" aria-labelledby="releases-title">
       <div class="wrap">
-        <div class="section-heading"><h2 id="releases-title">Release log</h2><p>Changes shipped. Checks still outstanding.</p></div>
+        <div class="section-heading"><h2 id="releases-title">Release log</h2><p>I record what shipped and what I still need to verify.</p></div>
         <article class="latest">
           <div class="release-stamp"><span class="kicker">Latest · Horatio AI</span><strong>1.47.2</strong><time datetime="2026-10-20">20 October 2026</time></div>
-          <div class="latest-copy"><h3>Images get their own room.</h3><p>Images and video frames now have their own context allowance, leaving room for reasoning and a useful response.</p><p class="validation"><strong>Verification:</strong> Local checks passed. End-to-end Discord attachment delivery remains to be verified.</p></div>
+          <div class="latest-copy"><h3>I separated visual and text budgets.</h3><p>I gave images and video frames a separate context allowance so their transport data cannot crowd out the question or its answer.</p><p class="validation"><strong>Verification:</strong> I passed the local checks. I still need to verify end-to-end Discord attachment delivery.</p></div>
         </article>
         <div class="archive-heading"><h3>Archive <span id="release-total">120</span></h3><a href="CHANGELOG.md">Full changelog ↗</a></div>
         <div class="archive-controls">
           <div><label for="component">Component</label><select id="component"><option value="all">All components</option><option value="Horatio AI">Horatio AI</option><option value="Minecraft Companion">Minecraft Companion</option></select></div>
           <div><label for="search">Search release notes</label><input type="search" id="search" placeholder="Version, feature or fix"></div>
         </div>
-        <p class="archive-note">Application and companion versions are separate. Dates show the original releases.</p>
+        <p class="archive-note">I version the application and companion separately. I record the original release dates here.</p>
         <p id="result-count" class="result-count" role="status">Loading release notes…</p>
         <div id="release-list" class="release-list"></div>
         <button id="load-more" class="button" type="button" hidden>Show more releases ↓</button>
@@ -64,20 +83,20 @@
     </section>
 
     <section id="roadmap" class="section wrap" aria-labelledby="roadmap-title">
-      <div class="section-heading"><h2 id="roadmap-title">The work ahead</h2><p>Priorities, not promises of delivery dates.</p></div>
+      <div class="section-heading"><h2 id="roadmap-title">The work ahead</h2><p>I’m prioritizing reliable outcomes before expanding the scope.</p></div>
       <div class="roadmap-list">
-        <article class="roadmap-lane"><h3><span class="lane-index" aria-hidden="true">01</span>Now</h3><ul><li><h4>Verify real media delivery</h4><p>Follow Discord attachments from receipt to a useful response.</p></li><li><h4>Observe background work</h4><p>Watch queues, retries and capacity; reduce repeated or wasted work.</p></li></ul></article>
-        <article class="roadmap-lane"><h3><span class="lane-index" aria-hidden="true">02</span>Next</h3><ul><li><h4>Close the research loop</h4><p>Follow new evidence to a completed investigation or a clear reason to defer.</p></li><li><h4>Make corrections stick</h4><p>Check that revised understanding and newly built tools improve follow-through.</p></li></ul></article>
-        <article class="roadmap-lane"><h3><span class="lane-index" aria-hidden="true">03</span>Later</h3><ul><li><h4>Improve the foundation</h4><p>Reduce legacy complexity and improve repeatable packaging and release checks.</p></li></ul></article>
+        <article class="roadmap-lane"><h3><span class="lane-index" aria-hidden="true">01</span>Now</h3><ul><li><h4>Verify real media delivery</h4><p>I’m verifying real Discord attachments from receipt to a useful response.</p></li><li><h4>Observe background work</h4><p>I’m observing queues, retries and capacity to reduce repeated work.</p></li></ul></article>
+        <article class="roadmap-lane"><h3><span class="lane-index" aria-hidden="true">02</span>Next</h3><ul><li><h4>Close the research loop</h4><p>I’ll check that new evidence reaches a completed investigation or a clear reason to defer.</p></li><li><h4>Make corrections stick</h4><p>I’ll verify that corrections change later decisions and new tools finish their original task.</p></li></ul></article>
+        <article class="roadmap-lane"><h3><span class="lane-index" aria-hidden="true">03</span>Later</h3><ul><li><h4>Improve the foundation</h4><p>I’ll reduce legacy complexity and improve repeatable packaging and release checks.</p></li></ul></article>
       </div>
     </section>
 
     <section id="updates" class="section paper" aria-labelledby="updates-title">
-      <div class="wrap"><div class="section-heading"><h2 id="updates-title">Development journal</h2><p>Decisions and observations from the project.</p></div><div id="updates-list" class="journal-list"></div><noscript><a href="UPDATES.md">Read development updates</a></noscript></div>
+      <div class="wrap"><div class="section-heading"><h2 id="updates-title">Development journal</h2><p>I document the decisions behind each change.</p></div><div id="updates-list" class="journal-list"></div><noscript><a href="UPDATES.md">Read development updates</a></noscript></div>
     </section>
-    <section class="community wrap" aria-labelledby="community-title"><div><h2 id="community-title">What should Horatio get better at?</h2><p>Questions, ideas and useful criticism belong in the discussion.</p></div><a class="text-link" href="https://github.com/ThatMonitorCord/Horatio-AI-Hub/discussions">Join the discussion <span aria-hidden="true">↗</span></a></section>
+    <section class="community wrap" aria-labelledby="community-title"><div><h2 id="community-title">Come and talk to Horatio.</h2><p>I invite you to join The Jazz Cafe and ping Horatio. I welcome project feedback in GitHub Discussions.</p></div><a class="text-link" href="https://discord.com/invite/thejazzcafe">Talk to Horatio <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer class="site-footer wrap"><p>Horatio AI · Public project hub</p><a href="https://github.com/ThatMonitorCord/Horatio-AI-Hub">View this hub on GitHub ↗</a><small>Application code and builds remain private. No analytics or tracking scripts.</small></footer>
+  <footer class="site-footer wrap"><p>Horatio AI · Public project hub</p><a href="https://github.com/ThatMonitorCord/Horatio-AI">View this hub on GitHub ↗</a><small>I keep application code and builds private. I use no analytics or tracking scripts.</small></footer>
 </body>
 </html>
 

@@ -1,24 +1,21 @@
-# Roadmap
+# My roadmap
 
-Updated October 20, 2026. Priorities may change; these are focus areas, not promised delivery dates.
+Updated October 20, 2026. I use this as a priority list; I have not committed to delivery dates.
 
-## Current focus
+## Now
 
-- **Reliable media workflows:** verify real Discord attachments from receipt through useful response, including images and video frames.
-- **Useful background work:** observe queues, retries and capacity over representative activity; reduce repeated or wasted work.
+- **Real media delivery:** I’m verifying Discord attachments from receipt to a useful response, including images and video frames.
+- **Background work:** I’m observing queues, retries and capacity to reduce repeated work.
 
 ## Next
 
-- **Evidence that leads somewhere:** verify that new server evidence reaches a completed investigation or a clear reason to defer.
-- **Corrections that stick:** demonstrate that corrections change retained understanding and that new tools help finish the task that prompted them.
+- **Research outcomes:** I’ll check that new evidence reaches a completed investigation or a clear reason to defer.
+- **Corrections and tools:** I’ll verify that corrections change later decisions and new tools finish their original task.
 
-## Longer term
+## Later
 
-- **Maintainable builds:** reduce legacy implementation debt and improve repeatable packaging and release verification.
+- **Maintainable builds:** I’ll reduce legacy complexity and improve repeatable packaging and release checks.
 
 ## Recently completed
 
-- Image and video-frame context-budget repair.
-- Provider quota accounting and throttle handling improvements.
-- Backup process improvements that avoid duplicate data copies.
-- A public home for release notes, development updates and feedback.
+I repaired image and video-frame context budgeting, improved capacity accounting and throttling, reduced backup duplication, and published this development record.

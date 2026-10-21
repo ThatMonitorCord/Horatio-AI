@@ -1,488 +1,726 @@
-# Release notes
+# My release log
 
-Public product changes. Dates refer to the original releases. Main application and Minecraft Companion versions are separate.
+I record application and companion releases separately. I use the original package or deployment dates for these entries.
 
-## Horatio AI 1.47.2 · 2026-10-20
+## Horatio AI 1.47.2 — 2026-10-20
 
-Fixed image and video-frame requests incorrectly exhausting the context budget. Visual input now has a separate allowance, preserving room for reasoning and a useful response.
+### Image and video-frame context budgeting
 
-Packaged checks and local image/frame recognition passed. End-to-end Discord attachment delivery still needs verification.
+I fixed image and video-frame requests exhausting the context budget. I separated visual input from conversation text to preserve room for reasoning and the response.
 
-## Horatio AI 1.47.1 · 2026-10-20
+I passed packaged checks and local image/frame recognition tests. I still need to verify end-to-end Discord attachment delivery.
 
-Add provider-specific allowances, reconcile rejected or uncertain usage, improve throttle handling, and distinguish paused reflection work from errors.
+## Horatio AI 1.47.1 — 2026-10-20
 
-## Horatio AI 1.47.0 · 2026-10-20
+### Provider quota accounting repair
 
-Integrate bounded incident signals and scoped evidence retrieval from the server evidence service into the main research workflow. Add UUID/name/first-join analytics and dashboard integration. The coordinated update moves independent reasoning to the main application.
+I added provider-specific allowances, reconcile rejected or uncertain usage, improve throttle handling, and distinguish paused reflection work from errors.
 
-## Horatio AI 1.46.1 · 2026-10-19
+## Horatio AI 1.47.0 — 2026-10-20
 
-Add one bounded retry for truncated working-memory output, with a larger output reservation and fewer source records. Preserve prior state and cancellation behavior.
+### Server evidence integration
 
-## Horatio AI 1.46.0 · 2026-10-19
+I connected bounded incident signals and scoped evidence retrieval to the main research workflow. I added UUID, name-history and first-join analytics to the dashboard, and moved independent investigation into the main application.
 
-Add host-issued internal read grants and persistent private research tasks. Project bounded non-identifying observations into public replies and filter private plugin names.
+## Horatio AI 1.46.1 — 2026-10-19
 
-## Horatio AI 1.45.2 · 2026-10-19
+### Working-memory retry repair
 
-Refine idle-capacity research admission and archive coverage/access handling. Diagnose missing records, connectors and authorization before starting engineering work.
+I added one bounded retry for truncated working-memory output, with a larger output reservation and fewer source records. I preserved prior state and cancellation behavior.
 
-## Horatio AI 1.45.0 · 2026-10-19
+## Horatio AI 1.46.0 — 2026-10-19
 
-Add selective 64K context for qualifying research while retaining ordinary 32K defaults. Keep more useful evidence and make workshop-built tools available on subsequent investigation passes. Repair planner schemas and repetitive-source consolidation.
+### Private log research
 
-## Horatio AI 1.44.1 · 2026-10-19
+I added host-issued internal read grants and persistent private research tasks. I projected bounded non-identifying observations into public replies and filter private plugin names.
 
-Fit persistent working-memory requests to the actual context budget, balance source kinds, and allow a bounded versioned retry of previously deferred work.
+## Horatio AI 1.45.2 — 2026-10-19
 
-## Horatio AI 1.43.0 · 2026-10-19
+### Research admission and access refinement
 
-Add scoped operational briefings, read-only status and purpose-based tool discovery. Cache provider-capacity observations and improve role-specific output budgets and actual-usage settlement.
+I refined idle-capacity research admission and archive coverage/access handling. I diagnosed missing records, connectors and authorization before starting engineering work.
 
-## Horatio AI 1.42.0 · 2026-10-19
+## Horatio AI 1.45.0 — 2026-10-19
 
-Add cloud vision fallback through the configured free Google worker pool when local vision is unavailable. Preserve cache and provenance, extend queued attachment/web paths and historical-join evidence access, and repair provider parsing, cooldowns, request sizing and workshop validation.
+### Selective 64K research and workshop follow-through
 
-## Horatio AI 1.41.1 · 2026-10-19
+I added selective 64K context for qualifying research while retaining ordinary 32K defaults. I kept more useful evidence and make workshop-built tools available on subsequent investigation passes. I repaired planner schemas and repetitive-source consolidation.
 
-Repair startup closure, relationship and mood lookups in the Mindspace release.
+## Horatio AI 1.44.1 — 2026-10-19
 
-## Horatio AI 1.40.2 · 2026-10-18
+### Working-memory context repair
 
-Refine code-example restrictions, follow-up cooldowns, capability/action wording, deferred-curiosity retries and personality instruction handling. Synchronize bundled source.
+I fitted persistent working-memory requests to the actual context budget, balance source kinds, and allow a bounded versioned retry of previously deferred work.
 
-## Horatio AI 1.40.1 · 2026-10-18
+## Horatio AI 1.43.0 — 2026-10-19
 
-Repair maintenance model fallbacks, distinguish byte sizing from token sizing, and clarify rejected-request errors.
+### System awareness and tool discovery
 
-## Horatio AI 1.40.0 · 2026-10-18
+I added scoped operational briefings, read-only status and purpose-based tool discovery. I cached provider-capacity observations and improve role-specific output budgets and actual-usage settlement.
 
-Add permission-checked parent and neighboring conversation context. Connect completed research to follow-up hypotheses, flag assessments affected by corrections, activate missing work-selection/outcome defaults, and expose effective features and build identity.
+## Horatio AI 1.42.0 — 2026-10-19
 
-## Horatio AI 1.36.5 · 2026-10-14
+### Vision fallback and evidence access
 
-Stabilize tool concurrency, delivery and numeric/evidence handling.
+I added a fallback route for visual analysis, retaining cached results and provenance. I extended queued attachment and web-evidence paths, improved historical-join queries, and repaired response parsing, cooldowns, request sizing and workshop validation.
 
-## Horatio AI 1.36.4 · 2026-10-13
+## Horatio AI 1.41.1 — 2026-10-19
 
-Ground follow-ups in the original question.
+### Mindspace startup repair
 
-## Horatio AI 1.36.3 · 2026-10-13
+I repaired startup closure, relationship and mood lookups in the Mindspace release.
 
-Repair membership/permission handling.
+## Horatio AI 1.40.2 — 2026-10-18
 
-## Horatio AI 1.36.2 · 2026-10-13
+### Conversation and follow-up refinements
 
-Reuse saved tool calls and separate planning/native execution to finish resumed investigations.
+I refined code-example restrictions, follow-up cooldowns, capability/action wording, deferred-curiosity retries and personality instruction handling. Synchronize bundled source.
 
-## Horatio AI 1.35.3 · 2026-10-13
+## Horatio AI 1.40.1 — 2026-10-18
 
-Complete Part 1: preserve valid tool results and distinguish unknown players from transport failures.
+### Maintenance routing repair
 
-## Horatio AI 1.35.2 · 2026-10-13
+I repaired maintenance fallback routing, separated byte sizing from token sizing, and clarified rejected-request errors.
 
-Repair Operator Chat recovery across application restart.
+## Horatio AI 1.40.0 — 2026-10-18
 
-## Horatio AI 1.35.1 · 2026-10-13
+### Connected outcomes and conversational retrieval
 
-Repair duplicate account links, objective targeting, research and mistaken refusals (Part 1).
+I added permission-checked parent and neighboring conversation context. Connect completed research to follow-up hypotheses, flag assessments affected by corrections, activate missing work-selection/outcome defaults, and expose effective features and build identity.
 
-## Horatio AI 1.35.0 · 2026-10-12
+## Horatio AI 1.36.5 — 2026-10-14
 
-Executable-extension workshop UI, archived operator chats and persistent approval controls.
+### Tool concurrency, delivery and numeric/evidence handling
 
-## Horatio AI 1.34.0 · 2026-10-11
+I stabilized tool concurrency, delivery and numeric/evidence handling.
 
-Persistent the tool workshop operator research/chat, steering, approvals and raw the server evidence service log transfer.
+## Horatio AI 1.36.4 — 2026-10-13
 
-## Horatio AI 1.33.1 · 2026-10-09
+### Question-grounded follow-ups
 
-Repair prestige-suffix parsing and gameplay income planning.
+I grounded follow-ups in the original question.
 
-## Horatio AI 1.33.0 · 2026-10-09
+## Horatio AI 1.36.3 — 2026-10-13
 
-Recipe-book crafting and inventory goal actions.
+### Membership/permission handling
 
-## Horatio AI 1.32.3 · 2026-10-09
+I repaired membership/permission handling.
 
-Filter unrelated chat from command-feedback records.
+## Horatio AI 1.36.2 — 2026-10-13
 
-## Horatio AI 1.32.2 · 2026-10-09
+### Resumable investigation execution
 
-Pause/retry the tool workshop rather than silently switching gameplay to the local fallback.
+I reused saved tool calls and separate planning/native execution to finish resumed investigations.
 
-## Horatio AI 1.32.1 · 2026-10-09
+## Horatio AI 1.35.3 — 2026-10-13
 
-Repair combat, death recovery and failed gameplay-tool handling.
+### Tool-result retention
 
-## Horatio AI 1.32.0 · 2026-10-09
+I preserved valid tool results and distinguished unknown players from transport failures.
 
-Separate the tool workshop gameplay planning pass with bounded delegation and menu tooltips.
+## Horatio AI 1.35.2 — 2026-10-13
 
-## Horatio AI 1.31.2 · 2026-10-09
+### Operator-chat restart recovery
 
-Expand construction checks for doors/beds, sleeping and sign reading.
+I repaired Operator Chat recovery across application restart.
 
-## Horatio AI 1.31.1 · 2026-10-09
+## Horatio AI 1.35.1 — 2026-10-13
 
-Refresh stale schemas and distinguish pending actions from blocked gameplay.
+### Account linking and objective targeting
 
-## Horatio AI 1.31.0 · 2026-10-09
+I repaired duplicate account links, objective targeting and research routing, and reduced mistaken refusals.
 
-Generated schematics, material bills and verified Baritone construction.
+## Horatio AI 1.35.0 — 2026-10-12
 
-## Horatio AI 1.30.5 · 2026-10-08
+### Extension workshop and approvals
 
-Improve reconnect recovery and book reading within existing gameplay.
+I added an executable-extension workshop interface, archived operator chats and persistent approval controls.
 
-## Horatio AI 1.30.4 · 2026-10-08
+## Horatio AI 1.34.0 — 2026-10-11
 
-Repair SellGUI/navigation, command completion and requested-block equipment.
+### Persistent operator research
 
-## Horatio AI 1.30.3 · 2026-10-08
+I added persistent operator research and chat, task steering, approvals and controlled transfer of server evidence.
 
-Improve HUD/command feedback and claim context; separate bridge startup repair followed.
+## Horatio AI 1.33.1 — 2026-10-09
 
-## Horatio AI 1.30.2 · 2026-10-08
+### Prestige-suffix parsing and gameplay income planning
 
-Expand existing game observation/control with bossbars and command completion.
+I repaired prestige-suffix parsing and gameplay income planning.
 
-## Horatio AI 1.30.1 · 2026-10-08
+## Horatio AI 1.33.0 — 2026-10-09
 
-Repair client-log selection, rank/name parsing and suppressed game replies.
+### Crafting and inventory goals
 
-## Horatio AI 1.30.0 · 2026-10-08
+I added recipe-book crafting and inventory goal actions.
 
-Write observed gameplay into persistent memory and use it in in-game chat.
+## Horatio AI 1.32.3 — 2026-10-09
 
-## Horatio AI 1.29.0 · 2026-10-08
+### Command-feedback filtering
 
-the tool workshop-led gameplay with death recovery, economy and menu control.
+I filtered unrelated chat from command-feedback records.
 
-## Horatio AI 1.28.0 · 2026-10-08
+## Horatio AI 1.32.2 — 2026-10-09
 
-Durable continuous gameplay plans and one-click survival objectives.
+### Gameplay planning recovery
 
-## Horatio AI 1.27.1 · 2026-10-08
+I changed failed gameplay planning to pause or retry instead of silently switching to another execution path.
 
-Use existing server knowledge in game plans and quiet join behavior.
+## Horatio AI 1.32.1 — 2026-10-09
 
-## Horatio AI 1.27.0 · 2026-10-08
+### Combat, death recovery and failed gameplay-tool handling
 
-Structured Fabric bridge skills and background Baritone actions.
+I repaired combat, death recovery and failed gameplay-tool handling.
 
-## Horatio AI 1.26.1 · 2026-10-07
+## Horatio AI 1.32.0 — 2026-10-09
 
-Recognize the configured Minecraft account name in chat addressing.
+### Bounded gameplay delegation
 
-## Horatio AI 1.26.0 · 2026-10-07
+I separated gameplay planning from execution and added bounded delegation and menu tooltips.
 
-Operator-started Minecraft gameplay with screenshot-based control and in-game arrival/chat integration.
+## Horatio AI 1.31.2 — 2026-10-09
 
-## Horatio AI 1.25.1 · 2026-10-07
+### Construction checks for doors/beds, sleeping and sign reading
 
-Repair tool routing, the tool workshop authentication/advice and vector-cache persistence; restore the earlier model settings.
+I expanded construction checks for doors/beds, sleeping and sign reading.
 
-## Horatio AI 1.25.0 · 2026-10-07
+## Horatio AI 1.31.1 — 2026-10-09
 
-Integrate the tool workshop background engineering/advice; coordinate a separate local-model change.
+### Schema refresh and pending-action state
 
-## Horatio AI 1.24.2 · 2026-10-06
+I refreshed stale schemas and distinguish pending actions from blocked gameplay.
 
-Expand the new extension runner's bounded public HTTPS retrieval.
+## Horatio AI 1.31.0 — 2026-10-09
 
-## Horatio AI 1.23.1 · 2026-10-06
+### Construction planning and verification
 
-Allow the enable command through the single-instance guard; repair voice packaging.
+I added generated schematics, material bills and verification of navigation-assisted construction.
 
-## Horatio AI 1.23.0 · 2026-10-06
+## Horatio AI 1.30.5 — 2026-10-08
 
-Recorded 90-day player-activity evidence.
+### Reconnect recovery and book reading within existing gameplay
 
-## Horatio AI 1.22.1 · 2026-10-06
+I improved reconnect recovery and book reading within existing gameplay.
 
-Improve question-specific tool routing and existing warp-tool use.
+## Horatio AI 1.30.4 — 2026-10-08
 
-## Horatio AI 1.22.0 · 2026-10-06
+### Inventory, navigation and command completion
 
-Multiple tool rounds, multi-player statistics and UUID fallback.
+I repaired SellGUI/navigation, command completion and requested-block equipment.
 
-## Horatio AI 1.21.1 · 2026-10-06
+## Horatio AI 1.30.3 — 2026-10-08
 
-Repair conversational repetition and continuity.
+### Game feedback and claim context
 
-## Horatio AI 1.21.0 · 2026-10-05
+I improved game-interface and command feedback and added claim context. I followed this with a separate bridge-startup repair.
 
-Stored TPS history and graphs, with dashboard readability improvements.
+## Horatio AI 1.30.2 — 2026-10-08
 
-## Horatio AI 1.20.1 · 2026-10-05
+### Game observation and command feedback
 
-Exclude inactive summary chunks from pending-embedding counts.
+I expanded existing game observation/control with bossbars and command completion.
 
-## Horatio AI 1.20.0 · 2026-10-05
+## Horatio AI 1.30.1 — 2026-10-08
 
-Background profiling of notable bans and historical ban evidence.
+### Client-log selection, rank/name parsing and suppressed game replies
 
-## Horatio AI 1.19.0 · 2026-10-05
+I repaired client-log selection, rank/name parsing and suppressed game replies.
 
-Named-player ban evidence tool through the server evidence service.
+## Horatio AI 1.30.0 — 2026-10-08
 
-## Horatio AI 1.18.0 · 2026-10-05
+### Gameplay memory
 
-Dashboard overhaul with activity graphs, agent state and persistent status/navigation.
+I persisted observed gameplay and made it available to in-game conversation.
 
-## Horatio AI 1.17.0 · 2026-10-05
+## Horatio AI 1.29.0 — 2026-10-08
 
-Separate pending work from development history; archive reviewed work and expose work queues/guidance.
+### Gameplay recovery and economy tools
 
-## Horatio AI 1.16.3 · 2026-10-05
+I connected gameplay planning to death recovery, economy actions and menu control.
 
-Repair dashboard request timeouts.
+## Horatio AI 1.28.0 — 2026-10-08
 
-## Horatio AI 1.16.2 · 2026-10-04
+### Durable gameplay plans
 
-Improve the server evidence service overview/status presentation.
+I added persistent gameplay plans and operator-started survival objectives.
 
-## Horatio AI 1.16.1 · 2026-10-04
+## Horatio AI 1.27.1 — 2026-10-08
 
-Expand the existing the server evidence service administration-report integration.
+### Server-aware gameplay planning
 
-## Horatio AI 1.16.0 · 2026-10-02
+I used existing server knowledge in game plans and quiet join behavior.
 
-Connect the separate the server evidence service service and its administration/activity/warp evidence tools.
+## Horatio AI 1.27.0 — 2026-10-08
 
-## Horatio AI 1.15.0 · 2026-10-02
+### Structured game-control skills
 
-Server administration metrics and deeper private operator investigations/planning.
+I added structured client-bridge skills and background navigation actions.
 
-## Horatio AI 1.14.9 · 2026-09-29
+## Horatio AI 1.26.1 — 2026-10-07
 
-Generate rants dynamically rather than repeating canned text.
+### Minecraft account-name recognition
 
-## Horatio AI 1.14.8 · 2026-09-29
+I recognized the configured Minecraft account name in chat addressing.
 
-Refine repeated probing and personalized rant behavior.
+## Horatio AI 1.26.0 — 2026-10-07
 
-## Horatio AI 1.14.7 · 2026-09-29
+### Operator-started gameplay
 
-Repair conversational continuity, Bedrock roster handling and wake words.
+I added screenshot-based Minecraft control, in-game arrival handling and chat integration for operator-started sessions.
 
-## Horatio AI 1.14.6 · 2026-09-29
+## Horatio AI 1.25.1 — 2026-10-07
 
-Bound same-user follow-up context, enforce writing style and check existing tools before proposing duplicates.
+### Tool routing and cache persistence
 
-## Horatio AI 1.14.5 · 2026-09-29
+I repaired tool routing, workshop authentication and advice delivery, and vector-cache persistence. I restored the previous inference configuration.
 
-Avoid synchronous search-index refreshes during voice replies; restore audible acknowledgements.
+## Horatio AI 1.25.0 — 2026-10-07
 
-## Horatio AI 1.14.4 · 2026-09-29
+### Background engineering consultation
 
-Repair alternate-account privacy handling.
+I integrated background engineering advice and coordinated a separate inference-configuration change.
 
-## Horatio AI 1.14.3 · 2026-09-29
+## Horatio AI 1.24.2 — 2026-10-06
 
-Prevent internal output from leaking into public replies.
+### Bounded HTTPS retrieval
 
-## Minecraft Companion 3.5.1 · 2026-09-28
+I expanded the new extension runner's bounded public HTTPS retrieval.
 
-Improve private-LAN query discovery and companion integration; keep plugin replies in canned-response mode while the standalone application handles AI conversations.
+## Horatio AI 1.23.1 — 2026-10-06
 
-## Minecraft Companion 3.5 · 2026-09-28
+### Single-instance activation and voice packaging
 
-Expand authenticated on-demand Minecraft player statistics and sampled player traffic for the standalone application.
+I allowed the enable command through the single-instance guard; repair voice packaging.
 
-## Horatio AI 1.14.2 · 2026-09-28
+## Horatio AI 1.23.0 — 2026-10-06
 
-Repair public-web result parsing.
+### Player-activity history
 
-## Horatio AI 1.14.1 · 2026-09-28
+I added access to 90-day player-activity evidence.
 
-Discover telemetry endpoints and coordinate the companion's canned-only behavior.
+## Horatio AI 1.22.1 — 2026-10-06
 
-## Horatio AI 1.14.0 · 2026-09-28
+### Question-specific tool routing
 
-Direct Minecraft telemetry and player-stat tools.
+I improved question-specific tool routing and existing warp-tool use.
 
-## Horatio AI 1.13.2 · 2026-09-28
+## Horatio AI 1.22.0 — 2026-10-06
 
-Prevent stale skip decisions from vetoing new work.
+### Multi-round evidence queries
 
-## Horatio AI 1.13.1 · 2026-09-28
+I added multiple tool rounds, multi-player statistics and UUID fallback.
 
-Broaden existing guild questions and relationship responses.
+## Horatio AI 1.21.1 — 2026-10-06
 
-## Horatio AI 1.13.0 · 2026-09-28
+### Conversational repetition and continuity
 
-Expose the shared answer tool catalog to background agents.
+I repaired conversational repetition and continuity.
 
-## Horatio AI 1.12.2 · 2026-09-28
+## Horatio AI 1.21.0 — 2026-10-05
 
-Repair voice-visit scheduling and retry.
+### Server-performance history
 
-## Horatio AI 1.12.1 · 2026-09-28
+I persisted server tick-performance history and added graphs with improved dashboard readability.
 
-Repair manual voice-visit eligibility.
+## Horatio AI 1.20.1 — 2026-10-05
 
-## Horatio AI 1.12.0 · 2026-09-28
+### Embedding queue accounting
 
-Scripted voice visits, intention controls and capability-gap tracking.
+I excluded inactive summary chunks from pending-embedding counts.
 
-## Horatio AI 1.11.0 · 2026-09-28
+## Horatio AI 1.20.0 — 2026-10-05
 
-Local web access, bounded public tool workshop and operator web workflow.
+### Historical moderation research
 
-## Horatio AI 1.10.1 · 2026-09-28
+I added background profiling of notable bans and access to historical moderation evidence.
 
-Improve objective investigation, evidence and rejection feedback.
+## Horatio AI 1.19.0 — 2026-10-05
 
-## Horatio AI 1.10.0 · 2026-09-28
+### Player moderation evidence
 
-Retire automatic self-updating/generated-tool installation; add adviser-only catch-up and belief, prediction, intention and relationship consolidation.
+I added named-player moderation-evidence queries through the evidence service.
 
-## Horatio AI 1.9.4 · 2026-09-27
+## Horatio AI 1.18.0 — 2026-10-05
 
-Repair consultant workspace CLI arguments.
+### Operator dashboard
 
-## Horatio AI 1.9.3 · 2026-09-27
+I rebuilt the dashboard around activity graphs, agent state and persistent status and navigation.
 
-Repair duplicate-job ownership with a unique lease.
+## Horatio AI 1.17.0 — 2026-10-05
 
-## Horatio AI 1.9.2 · 2026-09-27
+### Work queues and development history
 
-Repair response schema handling.
+I separated pending work from development history; archive reviewed work and expose work queues/guidance.
 
-## Horatio AI 1.9.1 · 2026-09-27
+## Horatio AI 1.16.3 — 2026-10-05
 
-Repair consultant request sizing and progress reporting.
+### Dashboard request timeouts
 
-## Horatio AI 1.9.0 · 2026-09-27
+I repaired dashboard request timeouts.
 
-Reviewed self-build/update workflow and permission inbox, subsequently retired.
+## Horatio AI 1.16.2 — 2026-10-04
 
-## Horatio AI 1.8.1 · 2026-09-27
+### Evidence-service status display
 
-Repair configuration migration/path handling.
+I improved the evidence service overview/status presentation.
 
-## Horatio AI 1.8.0 · 2026-09-27
+## Horatio AI 1.16.1 — 2026-10-04
 
-Private Operator Chat, directives and engineering consultation.
+### Administration-report integration
 
-## Horatio AI 1.7.0 · 2026-09-27
+I expanded the server-evidence administration reports.
 
-Post-response adaptive learning, after-action investigations, dashboard and consultant workflow.
+## Horatio AI 1.16.0 — 2026-10-02
 
-## Horatio AI 1.6.0 · 2026-09-27
+### Server-evidence connection
 
-Durable private operator objectives with status and cancellation.
+I connected administration, player-activity and location-evidence tools to the server-evidence service.
 
-## Horatio AI 1.5.1 · 2026-09-27
+## Horatio AI 1.15.0 — 2026-10-02
 
-Apply the new voice preset once and migrate obsolete configuration fields.
+### Administration metrics and investigations
 
-## Horatio AI 1.4.0 · 2026-09-26
+I added server-administration metrics and deeper private operator investigation and planning.
 
-Living memory, relationships, moods, rumors, newest-first learning and persistent retrieval.
+## Horatio AI 1.14.9 — 2026-09-29
 
-## Horatio AI 1.3.5 · 2026-09-26
+### Dynamic personality responses
 
-Restore the 1.2.3 base with one continuous audio player; shipped after 1.2.4.
+I generated rants dynamically rather than repeating canned text.
 
-## Horatio AI 1.3.4 · 2026-09-26
+## Horatio AI 1.14.8 — 2026-09-29
 
-Roll back overly aggressive voice filtering/background behavior.
+### Repeated probing and personalized rant behavior
 
-## Horatio AI 1.3.3 · 2026-09-26
+I refined repeated probing and personalized rant behavior.
 
-Adjust wake window, background pausing and voice budgets.
+## Horatio AI 1.14.7 — 2026-09-29
 
-## Horatio AI 1.3.2 · 2026-09-26
+### Conversational continuity, Bedrock roster handling and wake words
 
-Reduce false wake-word activations.
+I repaired conversational continuity, Bedrock roster handling and wake words.
 
-## Horatio AI 1.3.1 · 2026-09-26
+## Horatio AI 1.14.6 — 2026-09-29
 
-Serialize speech chunks to preserve playback order.
+### Follow-up context and tool reuse
 
-## Horatio AI 1.3.0 · 2026-09-26
+I bounded same-user follow-up context, enforce writing style and check existing tools before proposing duplicates.
 
-Natural Voicebox/Chatterbox speech synthesis.
+## Horatio AI 1.14.5 — 2026-09-29
 
-## Horatio AI 1.2.6 · 2026-09-26
+### Responsive voice retrieval
 
-Refine personality/lore controls and voice acknowledgements.
+I avoided synchronous search-index refreshes during voice replies; restore audible acknowledgements.
 
-## Horatio AI 1.2.5 · 2026-09-26
+## Horatio AI 1.14.4 — 2026-09-29
 
-Make the separate voice-model settings effective.
+### Alternate-account privacy handling
 
-## Horatio AI 1.2.4 · 2026-09-26
+I repaired alternate-account privacy handling.
 
-Recover voice shutdown and switching behavior.
+## Horatio AI 1.14.3 — 2026-09-29
 
-## Horatio AI 1.2.3 · 2026-09-26
+### Public-output privacy
 
-Begin speech from validated streamed answer sentences.
+I prevented internal output from leaking into public replies.
 
-## Horatio AI 1.2.2 · 2026-09-26
+## Minecraft Companion 3.5.1 — 2026-09-28
 
-Prioritize the active voice conversation over typed and overlapping requests.
+### Companion discovery and integration
 
-## Horatio AI 1.2.1 · 2026-09-26
+I improved query discovery and companion integration, and coordinated response handling across the connected services.
 
-Wake filtering, playback queue and voice shutdown refinements.
+## Minecraft Companion 3.5 — 2026-09-28
 
-## Horatio AI 1.2.0 · 2026-09-26
+### Authenticated player queries
 
-Discord voice conversations with wake words, speaker identity and spoken replies.
+I expanded authenticated player-statistics queries and sampled activity reporting.
 
-## Minecraft Companion 3.4 · 2026-09-25
+## Horatio AI 1.14.2 — 2026-09-28
 
-Add Minecraft telemetry for integration with the standalone Horatio application.
+### Public-web result parsing
 
-## Horatio AI 1.1.2 · 2026-09-25
+I repaired public-web result parsing.
 
-Strict summary JSON and bounded repair of malformed model output.
+## Horatio AI 1.14.1 — 2026-09-28
 
-## Horatio AI 1.1.1 · 2026-09-25
+### Telemetry discovery
 
-Parse verified account-linking embeds correctly.
+I added telemetry endpoint discovery and coordinated companion response behavior.
 
-## Horatio AI 1.1.0 · 2026-09-25
+## Horatio AI 1.14.0 — 2026-09-28
 
-Broader profiles and context, Minecraft chat mirror and Discord/Minecraft account linking.
+### Minecraft telemetry
 
-## Horatio AI 1.0.0 · 2026-09-25
+I added direct Minecraft telemetry and player-statistics tools.
 
-Standalone Windows Discord assistant: local inference, history, profiles, retrieval and optional Minecraft telemetry.
+## Horatio AI 1.13.2 — 2026-09-28
 
+### Stale-decision invalidation
 
-## Minecraft Companion 3.3 · 2026-09-24
+I prevented stale skip decisions from vetoing new work.
 
-Add forum and reference-document evidence to the knowledge workflow.
+## Horatio AI 1.13.1 — 2026-09-28
 
-## Minecraft Companion 3.2 · 2026-09-24
+### Community and relationship queries
 
-Add persistent conversation memory.
+I broadened existing guild questions and relationship responses.
 
-## Minecraft Companion 3.1 · 2026-09-23
+## Horatio AI 1.13.0 — 2026-09-28
 
-Expand operator controls and conversation-history handling.
+### Shared tools for background agents
 
-## Minecraft Companion 3.0 · 2026-09-23
+I exposed the shared answer tool catalog to background agents.
 
-Add local Ollama integration, Discord connectivity, personality controls and retrieval.
+## Horatio AI 1.12.2 — 2026-09-28
 
-## Minecraft Companion 2.3 · 2026-09-12
+### Voice-visit scheduling and retry
 
-Add webhook integration.
+I repaired voice-visit scheduling and retry.
 
-## Minecraft Companion 2.2 · 2026-09-12
+## Horatio AI 1.12.1 — 2026-09-28
 
-Add cooldown behavior to control repeated helper responses.
+### Manual voice-visit eligibility
 
-## Minecraft Companion 2.1 · 2026-09-12
+I repaired manual voice-visit eligibility.
 
-Improve ShreddedPaper compatibility and chat filtering/mute behavior.
+## Horatio AI 1.12.0 — 2026-09-28
 
+### Voice visits and intentions
+
+I added scripted voice visits, intention controls and capability-gap tracking.
+
+## Horatio AI 1.11.0 — 2026-09-28
+
+### Web retrieval and tool workshop
+
+I added local web access, a bounded public tool workshop and an operator web workflow.
+
+## Horatio AI 1.10.1 — 2026-09-28
+
+### Objective investigation, evidence and rejection feedback
+
+I improved objective investigation, evidence and rejection feedback.
+
+## Horatio AI 1.10.0 — 2026-09-28
+
+### Controlled engineering and memory consolidation
+
+I retired automatic self-updating/generated-tool installation; add adviser-only catch-up and belief, prediction, intention and relationship consolidation.
+
+## Horatio AI 1.9.4 — 2026-09-27
+
+### Consultant workspace CLI arguments
+
+I repaired consultant workspace CLI arguments.
+
+## Horatio AI 1.9.3 — 2026-09-27
+
+### Unique job leases
+
+I repaired duplicate-job ownership with a unique lease.
+
+## Horatio AI 1.9.2 — 2026-09-27
+
+### Response schema handling
+
+I repaired response schema handling.
+
+## Horatio AI 1.9.1 — 2026-09-27
+
+### Consultant request sizing and progress reporting
+
+I repaired consultant request sizing and progress reporting.
+
+## Horatio AI 1.9.0 — 2026-09-27
+
+### Reviewed update workflow
+
+I added a reviewed build-and-update workflow and permission inbox. I subsequently retired this update path.
+
+## Horatio AI 1.8.1 — 2026-09-27
+
+### Configuration migration/path handling
+
+I repaired configuration migration/path handling.
+
+## Horatio AI 1.8.0 — 2026-09-27
+
+### Private operator chat
+
+I added private operator chat, directives and engineering consultation.
+
+## Horatio AI 1.7.0 — 2026-09-27
+
+### After-action learning
+
+I added post-response adaptive learning, after-action investigations, and dashboard and consultation workflows.
+
+## Horatio AI 1.6.0 — 2026-09-27
+
+### Persistent operator objectives
+
+I added durable private operator objectives with status tracking and cancellation.
+
+## Horatio AI 1.5.1 — 2026-09-27
+
+### Voice preset migration
+
+I applied the new voice preset once and migrate obsolete configuration fields.
+
+## Horatio AI 1.4.0 — 2026-09-26
+
+### Living memory
+
+I added persistent retrieval, relationships, moods, rumors and newest-first learning to the memory system.
+
+## Horatio AI 1.3.5 — 2026-09-26
+
+### Continuous audio playback
+
+I restored the earlier voice base and used one continuous audio player. I shipped this repair after the voice shutdown update.
+
+## Horatio AI 1.3.4 — 2026-09-26
+
+### Voice-filter rollback
+
+I rolled back overly aggressive voice filtering/background behavior.
+
+## Horatio AI 1.3.3 — 2026-09-26
+
+### Wake window, background pausing and voice budgets
+
+I adjusted wake window, background pausing and voice budgets.
+
+## Horatio AI 1.3.2 — 2026-09-26
+
+### Wake-word false-positive reduction
+
+I reduced false wake-word activations.
+
+## Horatio AI 1.3.1 — 2026-09-26
+
+### Ordered speech playback
+
+I serialized speech chunks to preserve playback order.
+
+## Horatio AI 1.3.0 — 2026-09-26
+
+### Natural speech synthesis
+
+I added natural speech synthesis to spoken replies.
+
+## Horatio AI 1.2.6 — 2026-09-26
+
+### Personality/lore controls and voice acknowledgements
+
+I refined personality/lore controls and voice acknowledgements.
+
+## Horatio AI 1.2.5 — 2026-09-26
+
+### Voice configuration handling
+
+I made the separate voice-model settings effective.
+
+## Horatio AI 1.2.4 — 2026-09-26
+
+### Voice shutdown and switching behavior
+
+I recovered voice shutdown and switching behavior.
+
+## Horatio AI 1.2.3 — 2026-09-26
+
+### Streamed sentence playback
+
+I began speech from validated streamed answer sentences.
+
+## Horatio AI 1.2.2 — 2026-09-26
+
+### Active voice priority
+
+I prioritized the active voice conversation over typed and overlapping requests.
+
+## Horatio AI 1.2.1 — 2026-09-26
+
+### Voice filtering and playback
+
+I refined wake filtering, playback queues and voice shutdown.
+
+## Horatio AI 1.2.0 — 2026-09-26
+
+### Discord voice conversations
+
+I added wake words, speaker identity and spoken replies for Discord voice conversations.
+
+## Minecraft Companion 3.4 — 2026-09-25
+
+### Application telemetry integration
+
+I added Minecraft telemetry for integration with the standalone application.
+
+## Horatio AI 1.1.2 — 2026-09-25
+
+### Summary formatting repair
+
+I enforced strict summary JSON and added bounded repair of malformed output.
+
+## Horatio AI 1.1.1 — 2026-09-25
+
+### Verified account-link parsing
+
+I parsed verified account-linking embeds correctly.
+
+## Horatio AI 1.1.0 — 2026-09-25
+
+### Profiles and account linking
+
+I expanded profiles and context and added Minecraft chat mirroring and Discord-to-Minecraft account linking.
+
+## Horatio AI 1.0.0 — 2026-09-25
+
+### Standalone Discord application
+
+I shipped a standalone Windows Discord assistant with local inference, conversation history, profiles, retrieval and optional Minecraft telemetry.
+
+## Minecraft Companion 3.3 — 2026-09-24
+
+### Reference-document retrieval
+
+I added forum and reference-document evidence to the knowledge workflow.
+
+## Minecraft Companion 3.2 — 2026-09-24
+
+### Persistent conversation memory
+
+I added persistent conversation memory.
+
+## Minecraft Companion 3.1 — 2026-09-23
+
+### Operator controls and conversation history
+
+I expanded operator controls and conversation-history handling.
+
+## Minecraft Companion 3.0 — 2026-09-23
+
+### Local inference and Discord integration
+
+I added local inference, Discord connectivity, personality controls and retrieval.
+
+## Minecraft Companion 2.3 — 2026-09-12
+
+### Webhook integration
+
+I added webhook integration.
+
+## Minecraft Companion 2.2 — 2026-09-12
+
+### Response cooldowns
+
+I added cooldowns to control repeated helper responses.
+
+## Minecraft Companion 2.1 — 2026-09-12
+
+### Server compatibility and chat filtering
+
+I improved server compatibility, chat filtering and mute behavior.
 

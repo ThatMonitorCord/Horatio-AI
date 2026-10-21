@@ -60,7 +60,7 @@ search.addEventListener("input", resetArchive);
 component.addEventListener("change", resetArchive);
 more.addEventListener("click", () => { limit += 12; render(); });
 
-fetch("releases.json?v=b01e872e0f0c")
+fetch("releases.json?v=10be363a3c13")
   .then(response => {
     if (!response.ok) throw new Error("Release notes unavailable");
     return response.json();
@@ -79,7 +79,7 @@ fetch("releases.json?v=b01e872e0f0c")
     more.hidden = true;
   });
 
-fetch("updates.json?v=687c2fd40ec7")
+fetch("updates.json?v=4d6645d46897")
   .then(response => {
     if (!response.ok) throw new Error("Updates unavailable");
     return response.json();
