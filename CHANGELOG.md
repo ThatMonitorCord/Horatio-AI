@@ -14,7 +14,7 @@ I passed packaged checks and local image/frame recognition tests. I still need t
 
 ### Provider quota accounting repair
 
-I added provider-specific allowances, reconcile rejected or uncertain usage, improve throttle handling, and distinguish paused reflection work from errors.
+I added provider-specific allowances, reconciled rejected or uncertain usage, improved throttle handling, and distinguished paused reflection work from errors.
 
 ## Horatio AI 1.47.0 — 2026-10-20
 
@@ -32,7 +32,7 @@ I added one bounded retry for truncated working-memory output, with a larger out
 
 ### Private log research
 
-I added host-issued internal read grants and persistent private research tasks. I projected bounded non-identifying observations into public replies and filter private plugin names.
+I added host-issued internal read grants and persistent private research tasks. I projected bounded non-identifying observations into public replies and filtered private plugin names.
 
 ## Horatio AI 1.45.2 — 2026-10-19
 
@@ -44,19 +44,19 @@ I refined idle-capacity research admission and archive coverage/access handling.
 
 ### Selective 64K research and workshop follow-through
 
-I added selective 64K context for qualifying research while retaining ordinary 32K defaults. I kept more useful evidence and make workshop-built tools available on subsequent investigation passes. I repaired planner schemas and repetitive-source consolidation.
+I added selective 64K context for qualifying research while retaining ordinary 32K defaults. I kept more useful evidence and made workshop-built tools available on subsequent investigation passes. I repaired planner schemas and repetitive-source consolidation.
 
 ## Horatio AI 1.44.1 — 2026-10-19
 
 ### Working-memory context repair
 
-I fitted persistent working-memory requests to the actual context budget, balance source kinds, and allow a bounded versioned retry of previously deferred work.
+I fitted persistent working-memory requests to the actual context budget, balanced source kinds, and allowed a bounded versioned retry of previously deferred work.
 
 ## Horatio AI 1.43.0 — 2026-10-19
 
 ### System awareness and tool discovery
 
-I added scoped operational briefings, read-only status and purpose-based tool discovery. I cached provider-capacity observations and improve role-specific output budgets and actual-usage settlement.
+I added scoped operational briefings, read-only status and purpose-based tool discovery. I cached provider-capacity observations and improved role-specific output budgets and actual-usage settlement.
 
 ## Horatio AI 1.42.0 — 2026-10-19
 
@@ -74,7 +74,7 @@ I repaired startup closure, relationship and mood lookups in the Mindspace relea
 
 ### Conversation and follow-up refinements
 
-I refined code-example restrictions, follow-up cooldowns, capability/action wording, deferred-curiosity retries and personality instruction handling. Synchronize bundled source.
+I refined code-example restrictions, follow-up cooldowns, capability/action wording, deferred-curiosity retries and personality instruction handling. I synchronized the bundled source.
 
 ## Horatio AI 1.40.1 — 2026-10-18
 
@@ -86,7 +86,7 @@ I repaired maintenance fallback routing, separated byte sizing from token sizing
 
 ### Connected outcomes and conversational retrieval
 
-I added permission-checked parent and neighboring conversation context. Connect completed research to follow-up hypotheses, flag assessments affected by corrections, activate missing work-selection/outcome defaults, and expose effective features and build identity.
+I added permission-checked parent and neighboring conversation context. I connected completed research to follow-up hypotheses, flagged assessments affected by corrections, activated missing work-selection/outcome defaults, and exposed effective features and build identity.
 
 ## Horatio AI 1.36.5 — 2026-10-14
 
@@ -110,7 +110,7 @@ I repaired membership/permission handling.
 
 ### Resumable investigation execution
 
-I reused saved tool calls and separate planning/native execution to finish resumed investigations.
+I reused saved tool calls and separated planning/native execution to finish resumed investigations.
 
 ## Horatio AI 1.35.3 — 2026-10-13
 
@@ -188,7 +188,7 @@ I expanded construction checks for doors/beds, sleeping and sign reading.
 
 ### Schema refresh and pending-action state
 
-I refreshed stale schemas and distinguish pending actions from blocked gameplay.
+I refreshed stale schemas and distinguished pending actions from blocked gameplay.
 
 ## Horatio AI 1.31.0 — 2026-10-09
 
@@ -290,7 +290,7 @@ I expanded the new extension runner's bounded public HTTPS retrieval.
 
 ### Single-instance activation and voice packaging
 
-I allowed the enable command through the single-instance guard; repair voice packaging.
+I allowed the enable command through the single-instance guard, and repaired voice packaging.
 
 ## Horatio AI 1.23.0 — 2026-10-06
 
@@ -350,7 +350,7 @@ I rebuilt the dashboard around activity graphs, agent state and persistent statu
 
 ### Work queues and development history
 
-I separated pending work from development history; archive reviewed work and expose work queues/guidance.
+I separated pending work from development history, and archived reviewed work and exposed work queues/guidance.
 
 ## Horatio AI 1.16.3 — 2026-10-05
 
@@ -404,13 +404,13 @@ I repaired conversational continuity, Bedrock roster handling and wake words.
 
 ### Follow-up context and tool reuse
 
-I bounded same-user follow-up context, enforce writing style and check existing tools before proposing duplicates.
+I limited same-user follow-up context, enforced writing style and checked existing tools before proposing duplicates.
 
 ## Horatio AI 1.14.5 — 2026-09-29
 
 ### Responsive voice retrieval
 
-I avoided synchronous search-index refreshes during voice replies; restore audible acknowledgements.
+I avoided synchronous search-index refreshes during voice replies, and restored audible acknowledgements.
 
 ## Horatio AI 1.14.4 — 2026-09-29
 
@@ -506,7 +506,7 @@ I improved objective investigation, evidence and rejection feedback.
 
 ### Controlled engineering and memory consolidation
 
-I retired automatic self-updating/generated-tool installation; add adviser-only catch-up and belief, prediction, intention and relationship consolidation.
+I retired automatic self-updating/generated-tool installation, and added adviser-only catch-up and belief, prediction, intention and relationship consolidation.
 
 ## Horatio AI 1.9.4 — 2026-09-27
 
@@ -566,7 +566,7 @@ I added durable private operator objectives with status tracking and cancellatio
 
 ### Voice preset migration
 
-I applied the new voice preset once and migrate obsolete configuration fields.
+I applied the new voice preset once and migrated obsolete configuration fields.
 
 ## Horatio AI 1.4.0 — 2026-09-26
 
