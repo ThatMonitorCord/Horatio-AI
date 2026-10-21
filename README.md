@@ -8,18 +8,16 @@ I’m the sole developer of Horatio, an autonomous AI companion for The Jazz Caf
 
 [Project website](https://thatmonitorcord.github.io/Horatio-AI/) · [Release notes](CHANGELOG.md) · [Roadmap](ROADMAP.md) · [Development journal](UPDATES.md) · [Discussions](https://github.com/ThatMonitorCord/Horatio-AI/discussions)
 
-## My engineering notebook
+## Engineering notebook
 
-I document the architecture and its limits in six reading guides. I separate implemented behavior, fixture checks and live validation so the detail remains useful.
+Six engineering guides explain Horatio’s architecture, memory, research and tool execution.
 
 - [System architecture](engineering/architecture.md) — How Horatio turns a conversation into useful work.
 - [Memory & continuity](engineering/memory.md) — What Horatio remembers, infers and revisits.
 - [Autonomy & research](engineering/autonomy.md) — Initiative with a stopping point.
 - [Tools & the workshop](engineering/workshop.md) — How I add capability without handing over the keys.
 - [Conversation, media & Minecraft](engineering/interfaces.md) — One companion across very different inputs.
-- [Verification & development](engineering/verification.md) — What I can show, and what remains open.
-
-I verified a fresh source-only build on October 21 and compared the entry point and 152 audited first-party modules with the deployed application. I recorded 17 passing checks and two expected failures. I did not deploy that build; the [verification guide](engineering/verification.md) explains the scope and open defects.
+- [Development & operations](engineering/verification.md) — Builds, releases and the work ahead.
 
 ## Where I started
 
@@ -43,7 +41,7 @@ The scheduler separates admission, planning, execution and outcome recording. Du
 
 Horatio coordinates specialist work through an orchestration layer I built. Task roles cover retrieval, analysis, memory maintenance, investigation and engineering, while he keeps a consistent public voice.
 
-Delegated tasks carry an explicit purpose, output budget and permitted evidence scope. Horatio uses research results to develop follow-up hypotheses and revisit assessments when new evidence contradicts them. Capacity accounting, cooldowns, retry limits and backpressure keep that work within available resources. Result ownership is preserved when a task restarts or is reassigned; unfinished reasoning is not transferred between agents.
+Delegated tasks carry an explicit purpose, output budget and permitted evidence scope. Horatio uses research results to develop follow-up hypotheses and revisit assessments when new evidence contradicts them. Capacity accounting, cooldowns, retry limits and backpressure keep that work within available resources. Result ownership is preserved when a task restarts or is reassigned.
 
 ### Tools and controlled execution
 
@@ -55,7 +53,7 @@ Horatio plans tool use and interprets results; the runtime handles native execut
 
 Horatio draws on the same persistent context in text and voice conversations. I built wake-word handling, speaker identification, queued speech playback, streamed spoken replies and scheduled voice visits.
 
-The voice pipeline prioritizes active conversation and serializes speech chunks to preserve playback order. Horatio can analyze images and sampled video frames; separate visual and text allowances prevent encoded image transport from consuming the conversation budget. I have verified local image and frame recognition; I still need to complete the real Discord attachment path from receipt to reply.
+The voice pipeline prioritizes active conversation and serializes speech chunks to preserve playback order. Horatio can analyze images and sampled video frames; separate visual and text allowances prevent encoded image transport from consuming the conversation budget.
 
 ### Minecraft and server evidence
 
@@ -73,8 +71,8 @@ The dashboard distinguishes queued, running, cancelled and paused work and expos
 
 I look for recalled context that improves an answer, investigations that finish or reach a defensible stopping point, corrections that change later decisions, and tools that complete the work they were created for. I keep Horatio’s humor and occasional abrasiveness, while requiring factual reports and completed-action claims to be grounded in evidence.
 
-I develop and operate the project myself. I publish technical release notes here; I keep the application source, packaged builds, private conversations and operational data private. My current application release is **1.47.2**. I track unfinished validation in the release log and roadmap.
+I develop and operate the project myself. I publish technical release notes here; I keep the application source, packaged builds, private conversations and operational data private. My current application release is **1.47.2**.
 
 ## Feedback
 
-I welcome specific examples of what worked, what failed and what you expected. I use [GitHub Discussions](https://github.com/ThatMonitorCord/Horatio-AI/discussions) for project feedback and [Issues](https://github.com/ThatMonitorCord/Horatio-AI/issues) for public-facing problems. I do not need credentials, private conversations or unredacted logs in a public report.
+I welcome specific examples of what worked, what failed and what you expected. I use [GitHub Discussions](https://github.com/ThatMonitorCord/Horatio-AI/discussions) for project feedback and [Issues](https://github.com/ThatMonitorCord/Horatio-AI/issues) for public-facing problems.

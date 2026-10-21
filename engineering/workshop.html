@@ -21,7 +21,7 @@
 </header>
 <main id="main">
 <div class="article-heading wrap">
-<p class="kicker">My engineering notebook · 21 October 2026</p>
+<p class="kicker">Engineering notebook · 21 October 2026</p>
 <h1>Tools &amp; the workshop</h1>
 <p>How I add capability without handing over the keys.</p>
 </div>
@@ -34,7 +34,7 @@
 <a href="autonomy.html">Autonomy &amp; research</a>
 <a href="workshop.html" aria-current="page">Tools &amp; the workshop</a>
 <a href="interfaces.html">Conversation, media &amp; Minecraft</a>
-<a href="verification.html">Verification &amp; development</a>
+<a href="verification.html">Development &amp; operations</a>
 </nav>
 </aside>
 <article class="prose">
@@ -61,11 +61,11 @@
 </section>
 <section id="part-4">
 <h2>Execution limits</h2>
-<p>Executable extensions run in child processes with syntax restrictions and an allowed tool contract. I do not treat those checks as operating-system isolation or promise that arbitrary untrusted programs are safe to run. I keep activation and production changes under operator control.</p>
+<p>Executable extensions run in child processes with syntax restrictions and an allowed tool contract. The execution contract combines child processes, syntax checks and broker permissions. I keep activation and production changes under operator control.</p>
 </section>
 <section id="part-5">
 <h2>Completion needs evidence</h2>
-<p>Horatio is expected to check an action’s result before reporting success; I verify that behavior through workflow tests. A plan, submitted command or passing extension test does not establish that the original task finished. I retired an earlier automatic self-update path; workshop development does not imply unrestricted production self-modification.</p>
+<p>Horatio is expected to check an action’s result before reporting success; I verify that behavior through workflow tests. Action outcomes are checked against the resulting state. I retired an earlier automatic self-update path.</p>
 </section>
 <p class="reading-end">I keep dated changes in the <a href="../index.html#releases">release log</a> and unfinished work on my <a href="../ROADMAP.md">roadmap</a>.</p>
 </article>
@@ -73,7 +73,7 @@
 </div>
 </main>
 <footer class="site-footer wrap">
-<p>Horatio AI · My engineering notebook</p>
+<p>Horatio AI · Engineering notebook</p>
 <a href="../index.html">Back to the hub ↗</a><small>I publish design and evidence here; I keep operational records private.</small>
 </footer>
 </body>

@@ -1,6 +1,6 @@
 # System architecture
 
-[Hub](../README.md) · My engineering notebook · 21 October 2026
+[Hub](../README.md) · Engineering notebook · 21 October 2026
 
 ## Process at a glance
 

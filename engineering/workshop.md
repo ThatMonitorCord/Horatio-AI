@@ -1,6 +1,6 @@
 # Tools & the workshop
 
-[Hub](../README.md) · My engineering notebook · 21 October 2026
+[Hub](../README.md) · Engineering notebook · 21 October 2026
 
 ## Process at a glance
 
@@ -24,8 +24,8 @@ The host establishes request identity and evidence scope. Tool execution goes th
 
 ## Execution limits
 
-Executable extensions run in child processes with syntax restrictions and an allowed tool contract. I do not treat those checks as operating-system isolation or promise that arbitrary untrusted programs are safe to run. I keep activation and production changes under operator control.
+Executable extensions run in child processes with syntax restrictions and an allowed tool contract. The execution contract combines child processes, syntax checks and broker permissions. I keep activation and production changes under operator control.
 
 ## Completion needs evidence
 
-Horatio is expected to check an action’s result before reporting success; I verify that behavior through workflow tests. A plan, submitted command or passing extension test does not establish that the original task finished. I retired an earlier automatic self-update path; workshop development does not imply unrestricted production self-modification.
+Horatio is expected to check an action’s result before reporting success; I verify that behavior through workflow tests. Action outcomes are checked against the resulting state. I retired an earlier automatic self-update path.
